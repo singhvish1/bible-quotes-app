@@ -1,10 +1,12 @@
 .quote-card {
   background: white;
   border-radius: var(--border-radius);
-  padding: 1.5rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
   box-shadow: var(--shadow);
   transition: all 0.3s ease;
-  margin-bottom: 1rem;
+  margin-bottom: var(--card-gap);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .quote-card:hover {
@@ -13,15 +15,17 @@
 }
 
 .quote-text {
-  font-size: 1.05rem;
+  font-size: clamp(0.95rem, 2.5vw, 1.05rem);
   line-height: 1.7;
   color: var(--text-primary);
   margin-bottom: 1rem;
   font-style: italic;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .quote-reference {
-  font-size: 0.95rem;
+  font-size: clamp(0.85rem, 2vw, 0.95rem);
   font-weight: 600;
   color: var(--primary-color);
   margin-bottom: 1rem;
