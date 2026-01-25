@@ -481,5 +481,555 @@ export const QUOTES = [
     verse: "1-3",
     categories: ['peace', 'comfort', 'guidance'],
     moods: ['seekingPeace', 'grateful', 'seekingGuidance']
+  },
+  {
+    id: 46,
+    text: "The Lord is good, a refuge in times of trouble. He cares for those who trust in him.",
+    reference: "Nahum 1:7",
+    book: "Nahum",
+    chapter: 1,
+    verse: "7",
+    categories: ['comfort', 'protection', 'faith'],
+    moods: ['overwhelmed', 'anxious', 'fearful']
+  },
+  {
+    id: 47,
+    text: "Come near to God and he will come near to you.",
+    reference: "James 4:8",
+    book: "James",
+    chapter: 4,
+    verse: "8",
+    categories: ['faith', 'guidance'],
+    moods: ['seekingGuidance', 'lonely', 'doubtful']
+  },
+  {
+    id: 48,
+    text: "The name of the Lord is a strong tower; the righteous run to it and are safe.",
+    reference: "Proverbs 18:10",
+    book: "Proverbs",
+    chapter: 18,
+    verse: "10",
+    categories: ['protection', 'strength'],
+    moods: ['fearful', 'anxious', 'needingStrength']
+  },
+  {
+    id: 49,
+    text: "I have told you these things, so that in me you may have peace. In this world you will have trouble. But take heart! I have overcome the world.",
+    reference: "John 16:33",
+    book: "John",
+    chapter: 16,
+    verse: "33",
+    categories: ['peace', 'courage', 'hope'],
+    moods: ['overwhelmed', 'fearful', 'hopeful']
+  },
+  {
+    id: 50,
+    text: "The Lord will fight for you; you need only to be still.",
+    reference: "Exodus 14:14",
+    book: "Exodus",
+    chapter: 14,
+    verse: "14",
+    categories: ['peace', 'protection', 'faith'],
+    moods: ['overwhelmed', 'anxious', 'seekingPeace']
+  },
+  {
+    id: 51,
+    text: "Do not let your hearts be troubled. You believe in God; believe also in me.",
+    reference: "John 14:1",
+    book: "John",
+    chapter: 14,
+    verse: "1",
+    categories: ['peace', 'faith', 'comfort'],
+    moods: ['anxious', 'fearful', 'doubtful']
+  },
+  {
+    id: 52,
+    text: "The Lord your God is with you, the Mighty Warrior who saves. He will take great delight in you; in his love he will no longer rebuke you, but will rejoice over you with singing.",
+    reference: "Zephaniah 3:17",
+    book: "Zephaniah",
+    chapter: 3,
+    verse: "17",
+    categories: ['love', 'comfort', 'joy'],
+    moods: ['lonely', 'sad', 'grateful']
+  },
+  {
+    id: 53,
+    text: "Let the peace of Christ rule in your hearts, since as members of one body you were called to peace. And be thankful.",
+    reference: "Colossians 3:15",
+    book: "Colossians",
+    chapter: 3,
+    verse: "15",
+    categories: ['peace', 'gratitude'],
+    moods: ['seekingPeace', 'grateful', 'anxious']
+  },
+  {
+    id: 54,
+    text: "Those who know your name trust in you, for you, Lord, have never forsaken those who seek you.",
+    reference: "Psalm 9:10",
+    book: "Psalm",
+    chapter: 9,
+    verse: "10",
+    categories: ['faith', 'hope', 'comfort'],
+    moods: ['lonely', 'doubtful', 'seekingGuidance']
+  },
+  {
+    id: 55,
+    text: "The Lord is faithful to all his promises and loving toward all he has made.",
+    reference: "Psalm 145:13",
+    book: "Psalm",
+    chapter: 145,
+    verse: "13",
+    categories: ['faith', 'love', 'hope'],
+    moods: ['doubtful', 'hopeful', 'grateful']
+  },
+  {
+    id: 56,
+    text: "He gives strength to the weary and increases the power of the weak.",
+    reference: "Isaiah 40:29",
+    book: "Isaiah",
+    chapter: 40,
+    verse: "29",
+    categories: ['strength', 'comfort'],
+    moods: ['needingStrength', 'overwhelmed', 'sad']
+  },
+  {
+    id: 57,
+    text: "The Lord is gracious and compassionate, slow to anger and rich in love.",
+    reference: "Psalm 145:8",
+    book: "Psalm",
+    chapter: 145,
+    verse: "8",
+    categories: ['love', 'forgiveness', 'comfort'],
+    moods: ['grateful', 'hopeful', 'sad']
+  },
+  {
+    id: 58,
+    text: "Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    reference: "Joshua 1:9",
+    book: "Joshua",
+    chapter: 1,
+    verse: "9",
+    categories: ['courage', 'protection'],
+    moods: ['fearful', 'anxious', 'needingStrength']
+  },
+  {
+    id: 59,
+    text: "You will keep in perfect peace those whose minds are steadfast, because they trust in you.",
+    reference: "Isaiah 26:3",
+    book: "Isaiah",
+    chapter: 26,
+    verse: "3",
+    categories: ['peace', 'faith'],
+    moods: ['seekingPeace', 'anxious', 'overwhelmed']
+  },
+  {
+    id: 60,
+    text: "The Lord is near to all who call on him, to all who call on him in truth.",
+    reference: "Psalm 145:18",
+    book: "Psalm",
+    chapter: 145,
+    verse: "18",
+    categories: ['comfort', 'faith'],
+    moods: ['lonely', 'seekingGuidance', 'sad']
+  },
+  {
+    id: 61,
+    text: "Wait for the Lord; be strong and take heart and wait for the Lord.",
+    reference: "Psalm 27:14",
+    book: "Psalm",
+    chapter: 27,
+    verse: "14",
+    categories: ['patience', 'courage', 'hope'],
+    moods: ['overwhelmed', 'hopeful', 'anxious']
+  },
+  {
+    id: 62,
+    text: "The Lord is my rock, my fortress and my deliverer; my God is my rock, in whom I take refuge.",
+    reference: "Psalm 18:2",
+    book: "Psalm",
+    chapter: 18,
+    verse: "2",
+    categories: ['protection', 'strength', 'faith'],
+    moods: ['fearful', 'needingStrength', 'overwhelmed']
+  },
+  {
+    id: 63,
+    text: "Delight yourself in the Lord, and he will give you the desires of your heart.",
+    reference: "Psalm 37:4",
+    book: "Psalm",
+    chapter: 37,
+    verse: "4",
+    categories: ['joy', 'faith', 'hope'],
+    moods: ['joyful', 'grateful', 'hopeful']
+  },
+  {
+    id: 64,
+    text: "The Lord makes firm the steps of the one who delights in him; though he may stumble, he will not fall, for the Lord upholds him with his hand.",
+    reference: "Psalm 37:23-24",
+    book: "Psalm",
+    chapter: 37,
+    verse: "23-24",
+    categories: ['guidance', 'protection', 'faith'],
+    moods: ['seekingGuidance', 'doubtful', 'hopeful']
+  },
+  {
+    id: 65,
+    text: "The Lord is compassionate and gracious, slow to anger, abounding in love.",
+    reference: "Psalm 103:8",
+    book: "Psalm",
+    chapter: 103,
+    verse: "8",
+    categories: ['love', 'forgiveness', 'comfort'],
+    moods: ['grateful', 'hopeful', 'joyful']
+  },
+  {
+    id: 66,
+    text: "As far as the east is from the west, so far has he removed our transgressions from us.",
+    reference: "Psalm 103:12",
+    book: "Psalm",
+    chapter: 103,
+    verse: "12",
+    categories: ['forgiveness', 'love', 'hope'],
+    moods: ['grateful', 'hopeful', 'joyful']
+  },
+  {
+    id: 67,
+    text: "The Lord is my strength and my song; he has given me victory.",
+    reference: "Exodus 15:2",
+    book: "Exodus",
+    chapter: 15,
+    verse: "2",
+    categories: ['strength', 'joy', 'gratitude'],
+    moods: ['needingStrength', 'joyful', 'grateful']
+  },
+  {
+    id: 68,
+    text: "In all your ways submit to him, and he will make your paths straight.",
+    reference: "Proverbs 3:6",
+    book: "Proverbs",
+    chapter: 3,
+    verse: "6",
+    categories: ['guidance', 'faith', 'wisdom'],
+    moods: ['seekingGuidance', 'doubtful', 'overwhelmed']
+  },
+  {
+    id: 69,
+    text: "Do not worry about your life, what you will eat or drink; or about your body, what you will wear. Is not life more than food, and the body more than clothes?",
+    reference: "Matthew 6:25",
+    book: "Matthew",
+    chapter: 6,
+    verse: "25",
+    categories: ['peace', 'faith', 'wisdom'],
+    moods: ['anxious', 'overwhelmed', 'seekingPeace']
+  },
+  {
+    id: 70,
+    text: "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?",
+    reference: "Matthew 6:26",
+    book: "Matthew",
+    chapter: 6,
+    verse: "26",
+    categories: ['faith', 'comfort', 'hope'],
+    moods: ['anxious', 'doubtful', 'grateful']
+  },
+  {
+    id: 71,
+    text: "Commit your way to the Lord; trust in him and he will do this.",
+    reference: "Psalm 37:5",
+    book: "Psalm",
+    chapter: 37,
+    verse: "5",
+    categories: ['faith', 'guidance', 'hope'],
+    moods: ['seekingGuidance', 'overwhelmed', 'doubtful']
+  },
+  {
+    id: 72,
+    text: "The Lord will guide you always; he will satisfy your needs in a sun-scorched land and will strengthen your frame.",
+    reference: "Isaiah 58:11",
+    book: "Isaiah",
+    chapter: 58,
+    verse: "11",
+    categories: ['guidance', 'comfort', 'strength'],
+    moods: ['seekingGuidance', 'overwhelmed', 'needingStrength']
+  },
+  {
+    id: 73,
+    text: "He refreshes my soul. He guides me along the right paths for his name's sake.",
+    reference: "Psalm 23:3",
+    book: "Psalm",
+    chapter: 23,
+    verse: "3",
+    categories: ['guidance', 'comfort', 'peace'],
+    moods: ['seekingGuidance', 'overwhelmed', 'seekingPeace']
+  },
+  {
+    id: 74,
+    text: "The Lord is my helper; I will not be afraid. What can mere mortals do to me?",
+    reference: "Hebrews 13:6",
+    book: "Hebrews",
+    chapter: 13,
+    verse: "6",
+    categories: ['courage', 'faith', 'protection'],
+    moods: ['fearful', 'anxious', 'needingStrength']
+  },
+  {
+    id: 75,
+    text: "Though the mountains be shaken and the hills be removed, yet my unfailing love for you will not be shaken.",
+    reference: "Isaiah 54:10",
+    book: "Isaiah",
+    chapter: 54,
+    verse: "10",
+    categories: ['love', 'hope', 'comfort'],
+    moods: ['overwhelmed', 'fearful', 'hopeful']
+  },
+  {
+    id: 76,
+    text: "No weapon forged against you will prevail, and you will refute every tongue that accuses you.",
+    reference: "Isaiah 54:17",
+    book: "Isaiah",
+    chapter: 54,
+    verse: "17",
+    categories: ['protection', 'courage', 'faith'],
+    moods: ['fearful', 'overwhelmed', 'needingStrength']
+  },
+  {
+    id: 77,
+    text: "Be joyful in hope, patient in affliction, faithful in prayer.",
+    reference: "Romans 12:12",
+    book: "Romans",
+    chapter: 12,
+    verse: "12",
+    categories: ['joy', 'patience', 'faith'],
+    moods: ['hopeful', 'overwhelmed', 'grateful']
+  },
+  {
+    id: 78,
+    text: "The Lord your God is in your midst, a mighty one who will save; he will rejoice over you with gladness.",
+    reference: "Zephaniah 3:17",
+    book: "Zephaniah",
+    chapter: 3,
+    verse: "17",
+    categories: ['love', 'joy', 'comfort'],
+    moods: ['lonely', 'sad', 'joyful']
+  },
+  {
+    id: 79,
+    text: "Be strong and courageous. Do not be terrified; do not be discouraged.",
+    reference: "Joshua 1:9",
+    book: "Joshua",
+    chapter: 1,
+    verse: "9",
+    categories: ['courage', 'strength'],
+    moods: ['fearful', 'overwhelmed', 'needingStrength']
+  },
+  {
+    id: 80,
+    text: "Even to your old age and gray hairs I am he, I am he who will sustain you. I have made you and I will carry you.",
+    reference: "Isaiah 46:4",
+    book: "Isaiah",
+    chapter: 46,
+    verse: "4",
+    categories: ['comfort', 'love', 'protection'],
+    moods: ['overwhelmed', 'lonely', 'grateful']
+  },
+  {
+    id: 81,
+    text: "The Lord is good to those whose hope is in him, to the one who seeks him.",
+    reference: "Lamentations 3:25",
+    book: "Lamentations",
+    chapter: 3,
+    verse: "25",
+    categories: ['hope', 'faith', 'comfort'],
+    moods: ['hopeful', 'seekingGuidance', 'doubtful']
+  },
+  {
+    id: 82,
+    text: "Because of the Lord's great love we are not consumed, for his compassions never fail.",
+    reference: "Lamentations 3:22",
+    book: "Lamentations",
+    chapter: 3,
+    verse: "22",
+    categories: ['love', 'hope', 'comfort'],
+    moods: ['overwhelmed', 'sad', 'grateful']
+  },
+  {
+    id: 83,
+    text: "They are new every morning; great is your faithfulness.",
+    reference: "Lamentations 3:23",
+    book: "Lamentations",
+    chapter: 3,
+    verse: "23",
+    categories: ['hope', 'faith', 'gratitude'],
+    moods: ['hopeful', 'grateful', 'joyful']
+  },
+  {
+    id: 84,
+    text: "The Lord is my portion; therefore I will wait for him.",
+    reference: "Lamentations 3:24",
+    book: "Lamentations",
+    chapter: 3,
+    verse: "24",
+    categories: ['faith', 'patience', 'hope'],
+    moods: ['seekingGuidance', 'hopeful', 'overwhelmed']
+  },
+  {
+    id: 85,
+    text: "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit.",
+    reference: "John 15:5",
+    book: "John",
+    chapter: 15,
+    verse: "5",
+    categories: ['faith', 'guidance', 'hope'],
+    moods: ['seekingGuidance', 'hopeful', 'doubtful']
+  },
+  {
+    id: 86,
+    text: "I have loved you with an everlasting love; I have drawn you with unfailing kindness.",
+    reference: "Jeremiah 31:3",
+    book: "Jeremiah",
+    chapter: 31,
+    verse: "3",
+    categories: ['love', 'comfort', 'hope'],
+    moods: ['lonely', 'sad', 'grateful']
+  },
+  {
+    id: 87,
+    text: "For the Spirit God gave us does not make us timid, but gives us power, love and self-discipline.",
+    reference: "2 Timothy 1:7",
+    book: "2 Timothy",
+    chapter: 1,
+    verse: "7",
+    categories: ['courage', 'strength', 'love'],
+    moods: ['fearful', 'needingStrength', 'doubtful']
+  },
+  {
+    id: 88,
+    text: "The Lord is righteous in all his ways and faithful in all he does.",
+    reference: "Psalm 145:17",
+    book: "Psalm",
+    chapter: 145,
+    verse: "17",
+    categories: ['faith', 'hope'],
+    moods: ['doubtful', 'hopeful', 'grateful']
+  },
+  {
+    id: 89,
+    text: "Let us hold unswervingly to the hope we profess, for he who promised is faithful.",
+    reference: "Hebrews 10:23",
+    book: "Hebrews",
+    chapter: 10,
+    verse: "23",
+    categories: ['hope', 'faith', 'perseverance'],
+    moods: ['hopeful', 'doubtful', 'overwhelmed']
+  },
+  {
+    id: 90,
+    text: "Every good and perfect gift is from above, coming down from the Father of the heavenly lights.",
+    reference: "James 1:17",
+    book: "James",
+    chapter: 1,
+    verse: "17",
+    categories: ['gratitude', 'faith', 'joy'],
+    moods: ['grateful', 'joyful', 'hopeful']
+  },
+  {
+    id: 91,
+    text: "The Lord loves righteousness and justice; the earth is full of his unfailing love.",
+    reference: "Psalm 33:5",
+    book: "Psalm",
+    chapter: 33,
+    verse: "5",
+    categories: ['love', 'faith', 'hope'],
+    moods: ['grateful', 'hopeful', 'joyful']
+  },
+  {
+    id: 92,
+    text: "Praise the Lord, my soul, and forget not all his benefits.",
+    reference: "Psalm 103:2",
+    book: "Psalm",
+    chapter: 103,
+    verse: "2",
+    categories: ['gratitude', 'joy'],
+    moods: ['grateful', 'joyful', 'hopeful']
+  },
+  {
+    id: 93,
+    text: "Blessed is the one who perseveres under trial because, having stood the test, that person will receive the crown of life.",
+    reference: "James 1:12",
+    book: "James",
+    chapter: 1,
+    verse: "12",
+    categories: ['perseverance', 'hope', 'courage'],
+    moods: ['overwhelmed', 'needingStrength', 'hopeful']
+  },
+  {
+    id: 94,
+    text: "Call to me and I will answer you and tell you great and unsearchable things you do not know.",
+    reference: "Jeremiah 33:3",
+    book: "Jeremiah",
+    chapter: 33,
+    verse: "3",
+    categories: ['guidance', 'faith', 'wisdom'],
+    moods: ['seekingGuidance', 'doubtful', 'hopeful']
+  },
+  {
+    id: 95,
+    text: "In their hearts humans plan their course, but the Lord establishes their steps.",
+    reference: "Proverbs 16:9",
+    book: "Proverbs",
+    chapter: 16,
+    verse: "9",
+    categories: ['guidance', 'wisdom', 'faith'],
+    moods: ['seekingGuidance', 'overwhelmed', 'doubtful']
+  },
+  {
+    id: 96,
+    text: "The Lord is a refuge for the oppressed, a stronghold in times of trouble.",
+    reference: "Psalm 9:9",
+    book: "Psalm",
+    chapter: 9,
+    verse: "9",
+    categories: ['protection', 'comfort', 'strength'],
+    moods: ['overwhelmed', 'fearful', 'sad']
+  },
+  {
+    id: 97,
+    text: "Those who sow with tears will reap with songs of joy.",
+    reference: "Psalm 126:5",
+    book: "Psalm",
+    chapter: 126,
+    verse: "5",
+    categories: ['hope', 'joy', 'perseverance'],
+    moods: ['sad', 'hopeful', 'overwhelmed']
+  },
+  {
+    id: 98,
+    text: "He who goes out weeping, carrying seed to sow, will return with songs of joy, carrying sheaves with him.",
+    reference: "Psalm 126:6",
+    book: "Psalm",
+    chapter: 126,
+    verse: "6",
+    categories: ['hope', 'joy', 'perseverance'],
+    moods: ['sad', 'hopeful', 'joyful']
+  },
+  {
+    id: 99,
+    text: "The Lord will vindicate me; your love, Lord, endures forever—do not abandon the works of your hands.",
+    reference: "Psalm 138:8",
+    book: "Psalm",
+    chapter: 138,
+    verse: "8",
+    categories: ['faith', 'love', 'hope'],
+    moods: ['overwhelmed', 'lonely', 'hopeful']
+  },
+  {
+    id: 100,
+    text: "You are my hiding place; you will protect me from trouble and surround me with songs of deliverance.",
+    reference: "Psalm 32:7",
+    book: "Psalm",
+    chapter: 32,
+    verse: "7",
+    categories: ['protection', 'comfort', 'joy'],
+    moods: ['fearful', 'anxious', 'seekingPeace']
   }
 ];
