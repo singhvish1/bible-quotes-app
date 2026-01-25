@@ -1,0 +1,106 @@
+.quote-card {
+  background: white;
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.quote-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
+.quote-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.quote-reference {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.quote-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.category-tag {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.quote-actions {
+  display: flex;
+  gap: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+  background: var(--secondary-color);
+  color: var(--text-primary);
+}
+
+.action-btn.active {
+  color: #ffd700;
+}
+
+.action-btn.active:hover {
+  color: #ffc000;
+}
+
+.action-icon {
+  font-size: 1.1rem;
+}
+
+.action-label {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .quote-card {
+    padding: 1.25rem;
+  }
+
+  .quote-text {
+    font-size: 1rem;
+  }
+
+  .quote-reference {
+    font-size: 0.875rem;
+  }
+
+  .category-tag {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.65rem;
+  }
+}

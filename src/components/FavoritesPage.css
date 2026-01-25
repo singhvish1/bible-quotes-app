@@ -1,0 +1,9 @@
+.favorites-page {
+  max-width: 100%;
+}
+
+.quotes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
