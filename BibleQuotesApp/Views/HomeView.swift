@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
 	let quotes = QuoteService.shared.quotes
 	@EnvironmentObject var favorites: FavoritesManager
+	@State private var expandedBooks = Set<String>()
 
 	var quotesByBook: [String: [Quote]] {
 		let grouped = Dictionary(grouping: quotes) { $0.book ?? "Unknown" }
@@ -15,7 +16,18 @@ struct HomeView: View {
 	var body: some View {
 		List {
 			ForEach(quotesByBook.keys.sorted(), id: \.self) { book in
-				Section(header: Text(book).font(.headline).fontWeight(.bold)) {
+				DisclosureGroup(
+					isExpanded: Binding(
+						get: { expandedBooks.contains(book) },
+						set: { isExpanded in
+							if isExpanded {
+								expandedBooks.insert(book)
+							} else {
+								expandedBooks.remove(book)
+							}
+						}
+					)
+				) {
 					ForEach(quotesByBook[book] ?? []) { quote in
 						NavigationLink(destination: QuoteDetailView(quote: quote)) {
 							VStack(alignment: .leading, spacing: 6) {
@@ -30,6 +42,16 @@ struct HomeView: View {
 							}
 							.padding(.vertical, 6)
 						}
+					}
+				} label: {
+					HStack {
+						Text(book)
+							.font(.headline)
+							.fontWeight(.bold)
+						Spacer()
+						Text("(\(quotesByBook[book]?.count ?? 0))")
+							.font(.caption)
+							.foregroundColor(.secondary)
 					}
 				}
 			}
