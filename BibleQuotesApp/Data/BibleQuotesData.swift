@@ -16,9 +16,4 @@ enum BibleQuotesData {
 		}
 	}
 }
-		} catch {
-			print("Failed to decode quotes.json:", error)
-			return []
-		}
-	}
-}
+

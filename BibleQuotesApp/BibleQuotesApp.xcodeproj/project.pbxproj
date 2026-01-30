@@ -16,15 +16,16 @@
     A1000009 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000009; };
 /* End PBXBuildFile section */
 /* Begin PBXFileReference section */
-    A2000001 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/BibleQuotesAppApp.swift"; sourceTree = SOURCE_ROOT; };
-    A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/ContentView.swift"; sourceTree = SOURCE_ROOT; };
-    A2000003 /* AllQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Views/AllQuotesView.swift"; sourceTree = SOURCE_ROOT; };
-    A2000004 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Views/FavoritesView.swift"; sourceTree = SOURCE_ROOT; };
-    A2000005 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Models/Quote.swift"; sourceTree = SOURCE_ROOT; };
-    A2000006 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Services/QuoteService.swift"; sourceTree = SOURCE_ROOT; };
-    A2000007 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Services/FavoritesManager.swift"; sourceTree = SOURCE_ROOT; };
-    A2000008 /* BibleQuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Data/BibleQuotesData.swift"; sourceTree = SOURCE_ROOT; };
-    A2000009 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "BibleQuotesApp/Data/quotes.json"; sourceTree = SOURCE_ROOT; };
+    A2000001 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesAppApp.swift"; sourceTree = SOURCE_ROOT; };
+    A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000003 /* AllQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/AllQuotesView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000004 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/FavoritesView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000005 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/Quote.swift"; sourceTree = SOURCE_ROOT; };
+    A2000006 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/QuoteService.swift"; sourceTree = SOURCE_ROOT; };
+    A2000007 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/FavoritesManager.swift"; sourceTree = SOURCE_ROOT; };
+    A2000008 /* BibleQuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data/BibleQuotesData.swift"; sourceTree = SOURCE_ROOT; };
+    A2000009 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/quotes.json"; sourceTree = SOURCE_ROOT; };
+    A2000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = SOURCE_ROOT; };
     A3000003 /* BibleQuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleQuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 /* Begin PBXSourcesBuildPhase section */
@@ -68,12 +69,12 @@
       children = (
         A2000001,
         A2000002,
+        A2000010,
         A4000003,
         A4000004,
         A4000005,
         A4000006,
       );
-      path = BibleQuotesApp;
       sourceTree = SOURCE_ROOT;
     };
     A4000003 = {
@@ -82,7 +83,7 @@
         A2000003,
         A2000004,
       );
-      name = Views;
+      path = Views;
       sourceTree = "<group>";
     };
     A4000004 = {
@@ -90,7 +91,7 @@
       children = (
         A2000005,
       );
-      name = Models;
+      path = Models;
       sourceTree = "<group>";
     };
     A4000005 = {
@@ -99,7 +100,7 @@
         A2000006,
         A2000007,
       );
-      name = Services;
+      path = Services;
       sourceTree = "<group>";
     };
     A4000006 = {
@@ -108,7 +109,7 @@
         A2000008,
         A2000009,
       );
-      name = Data;
+      path = Data;
       sourceTree = "<group>";
     };
     A5000001 = {
@@ -160,11 +161,13 @@
     A5000006 /* Debug */ = {
       isa = XCBuildConfiguration;
       buildSettings = {
+        CODE_SIGN_IDENTITY = "";
         CODE_SIGN_STYLE = Automatic;
+        CODE_SIGNING_REQUIRED = NO;
         CURRENT_PROJECT_VERSION = 1;
         DEVELOPMENT_TEAM = "";
-        GENERATE_INFOPLIST_FILE = YES;
-        INFOPLIST_FILE = "BibleQuotesApp/Info.plist";
+        GENERATE_INFOPLIST_FILE = NO;
+        INFOPLIST_FILE = "Info.plist";
         INFOPLIST_KEY_UIApplicationSceneManifestType = UIApplicationSceneManifestTypeMultipleScene;
         INFOPLIST_KEY_UIMainStoryboardFile = "";
         IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -180,11 +183,13 @@
     A5000007 /* Release */ = {
       isa = XCBuildConfiguration;
       buildSettings = {
+        CODE_SIGN_IDENTITY = "";
         CODE_SIGN_STYLE = Automatic;
+        CODE_SIGNING_REQUIRED = NO;
         CURRENT_PROJECT_VERSION = 1;
         DEVELOPMENT_TEAM = "";
-        GENERATE_INFOPLIST_FILE = YES;
-        INFOPLIST_FILE = "BibleQuotesApp/Info.plist";
+        GENERATE_INFOPLIST_FILE = NO;
+        INFOPLIST_FILE = "Info.plist";
         INFOPLIST_KEY_UIApplicationSceneManifestType = UIApplicationSceneManifestTypeMultipleScene;
         INFOPLIST_KEY_UIMainStoryboardFile = "";
         IPHONEOS_DEPLOYMENT_TARGET = 14.0;

@@ -40,7 +40,7 @@ struct QuoteDetailView: View {
 					Button(action: { favorites.toggle(quote) }) {
 						Label(favorites.isFavorite(quote) ? "Unfavorite" : "Favorite", systemImage: favorites.isFavorite(quote) ? "star.fill" : "star")
 					}
-					.buttonStyle(.bordered)
+	
 					Spacer()
 				}
 			}
