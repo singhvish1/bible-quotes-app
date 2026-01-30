@@ -33,6 +33,12 @@ struct ContentView: View {
 				Text("Flashcards")
 			}
 
+			CharacterFlashcardView()
+			.tabItem {
+				Image(systemName: "person.2.fill")
+				Text("Characters")
+			}
+
 			NavigationView {
 				SearchView()
 			}

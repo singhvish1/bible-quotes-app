@@ -18,6 +18,10 @@
     A1000015 /* MoodQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015; };
     A1000016 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000016; };
     A1000017 /* FlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000017; };
+    A1000018 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000018; };
+    A1000019 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000019; };
+    A1000020 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000020; };
+    A1000021 /* CharacterFlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000021; };
 /* End PBXBuildFile section */
 /* Begin PBXFileReference section */
     A2000001 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesAppApp.swift"; sourceTree = SOURCE_ROOT; };
@@ -34,6 +38,10 @@
     A2000008 /* BibleQuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data/BibleQuotesData.swift"; sourceTree = SOURCE_ROOT; };
     A2000009 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/quotes.json"; sourceTree = SOURCE_ROOT; };
     A2000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = SOURCE_ROOT; };
+    A2000018 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/Character.swift"; sourceTree = SOURCE_ROOT; };
+    A2000019 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/CharacterService.swift"; sourceTree = SOURCE_ROOT; };
+    A2000020 /* characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/characters.json"; sourceTree = SOURCE_ROOT; };
+    A2000021 /* CharacterFlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/CharacterFlashcardView.swift"; sourceTree = SOURCE_ROOT; };
     A3000003 /* BibleQuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleQuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 /* Begin PBXSourcesBuildPhase section */
@@ -53,6 +61,9 @@
         A1000015,
         A1000016,
         A1000017,
+        A1000018,
+        A1000019,
+        A1000021,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -63,6 +74,7 @@
       buildActionMask = 2147483647;
       files = (
         A1000009,
+        A1000020,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -98,6 +110,7 @@
         A2000015,
         A2000016,
         A2000017,
+        A2000021,
       );
       path = Views;
       sourceTree = "<group>";
@@ -106,6 +119,7 @@
       isa = PBXGroup;
       children = (
         A2000005,
+        A2000018,
       );
       path = Models;
       sourceTree = "<group>";
@@ -115,6 +129,7 @@
       children = (
         A2000006,
         A2000007,
+        A2000019,
       );
       path = Services;
       sourceTree = "<group>";
@@ -124,6 +139,7 @@
       children = (
         A2000008,
         A2000009,
+        A2000020,
       );
       path = Data;
       sourceTree = "<group>";
