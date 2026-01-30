@@ -4,17 +4,43 @@ struct ContentView: View {
 	var body: some View {
 		TabView {
 			NavigationView {
-				AllQuotesView()
+				HomeView()
 			}
 			.tabItem {
-				Label("All", systemImage: "list.bullet")
+				Image(systemName: "house.fill")
+				Text("Home")
+			}
+
+			NavigationView {
+				BrowseView()
+			}
+			.tabItem {
+				Image(systemName: "books.vertical.fill")
+				Text("Browse")
+			}
+
+			NavigationView {
+				MoodQuotesView()
+			}
+			.tabItem {
+				Image(systemName: "sparkles")
+				Text("Moods")
+			}
+
+			NavigationView {
+				SearchView()
+			}
+			.tabItem {
+				Image(systemName: "magnifyingglass")
+				Text("Search")
 			}
 
 			NavigationView {
 				FavoritesView()
 			}
 			.tabItem {
-				Label("Favorites", systemImage: "star.fill")
+				Image(systemName: "star.fill")
+				Text("Favorites")
 			}
 		}
 	}

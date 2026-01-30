@@ -7,19 +7,25 @@
 /* Begin PBXBuildFile section */
     A1000001 /* BibleQuotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001; };
     A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002; };
-    A1000003 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003; };
+    A1000003 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003; };
     A1000004 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004; };
     A1000005 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005; };
     A1000006 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006; };
     A1000007 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007; };
     A1000008 /* BibleQuotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008; };
     A1000009 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000009; };
+    A1000014 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000014; };
+    A1000015 /* MoodQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015; };
+    A1000016 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000016; };
 /* End PBXBuildFile section */
 /* Begin PBXFileReference section */
     A2000001 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesAppApp.swift"; sourceTree = SOURCE_ROOT; };
     A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = SOURCE_ROOT; };
-    A2000003 /* AllQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/AllQuotesView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000003 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/HomeView.swift"; sourceTree = SOURCE_ROOT; };
     A2000004 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/FavoritesView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000014 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/BrowseView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000015 /* MoodQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/MoodQuotesView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000016 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/SearchView.swift"; sourceTree = SOURCE_ROOT; };
     A2000005 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/Quote.swift"; sourceTree = SOURCE_ROOT; };
     A2000006 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/QuoteService.swift"; sourceTree = SOURCE_ROOT; };
     A2000007 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/FavoritesManager.swift"; sourceTree = SOURCE_ROOT; };
@@ -41,6 +47,9 @@
         A1000006,
         A1000007,
         A1000008,
+        A1000014,
+        A1000015,
+        A1000016,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -82,6 +91,9 @@
       children = (
         A2000003,
         A2000004,
+        A2000014,
+        A2000015,
+        A2000016,
       );
       path = Views;
       sourceTree = "<group>";
