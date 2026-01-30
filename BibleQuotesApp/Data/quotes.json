@@ -198,5 +198,805 @@
     "verse": "28",
     "categories": ["hope", "faith"],
     "moods": ["hopeful", "doubtful", "overwhelmed"]
+  },
+  {
+    "id": 21,
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding.",
+    "reference": "Proverbs 3:5",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": "5",
+    "categories": ["faith", "wisdom"],
+    "moods": ["doubtful", "seekingGuidance", "anxious"]
+  },
+  {
+    "id": 22,
+    "text": "The Lord is good to those whose hope is in him, to the one who seeks him.",
+    "reference": "Lamentations 3:25",
+    "book": "Lamentations",
+    "chapter": 3,
+    "verse": "25",
+    "categories": ["hope", "faith"],
+    "moods": ["hopeful", "seekingGuidance"]
+  },
+  {
+    "id": 23,
+    "text": "Let the morning bring me word of your unfailing love, for I have put my trust in you.",
+    "reference": "Psalm 143:8",
+    "book": "Psalm",
+    "chapter": 143,
+    "verse": "8",
+    "categories": ["faith", "love"],
+    "moods": ["hopeful", "grateful"]
+  },
+  {
+    "id": 24,
+    "text": "Love the Lord your God with all your heart and with all your soul and with all your mind.",
+    "reference": "Matthew 22:37",
+    "book": "Matthew",
+    "chapter": 22,
+    "verse": "37",
+    "categories": ["love", "faith"],
+    "moods": ["joyful", "grateful"]
+  },
+  {
+    "id": 25,
+    "text": "And we love him because he first loved us.",
+    "reference": "1 John 4:19",
+    "book": "1 John",
+    "chapter": 4,
+    "verse": "19",
+    "categories": ["love", "faith"],
+    "moods": ["grateful", "joyful", "hopeful"]
+  },
+  {
+    "id": 26,
+    "text": "Greater love has no one than this: to lay down one's life for one's friends.",
+    "reference": "John 15:13",
+    "book": "John",
+    "chapter": 15,
+    "verse": "13",
+    "categories": ["love", "sacrifice"],
+    "moods": ["grateful", "inspired"]
+  },
+  {
+    "id": 27,
+    "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.",
+    "reference": "1 Corinthians 13:4",
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": "4",
+    "categories": ["love", "virtue"],
+    "moods": ["joyful", "grateful"]
+  },
+  {
+    "id": 28,
+    "text": "Commit to the Lord whatever you do, and your plans will succeed.",
+    "reference": "Proverbs 16:3",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": "3",
+    "categories": ["faith", "wisdom"],
+    "moods": ["hopeful", "seekingGuidance"]
+  },
+  {
+    "id": 29,
+    "text": "In his heart a man plans his course, but the Lord establishes his steps.",
+    "reference": "Proverbs 16:9",
+    "book": "Proverbs",
+    "chapter": 16,
+    "verse": "9",
+    "categories": ["faith", "wisdom"],
+    "moods": ["hopeful", "seekingGuidance"]
+  },
+  {
+    "id": 30,
+    "text": "Delight yourself in the Lord and he will give you the desires of your heart.",
+    "reference": "Psalm 37:4",
+    "book": "Psalm",
+    "chapter": 37,
+    "verse": "4",
+    "categories": ["joy", "faith"],
+    "moods": ["joyful", "hopeful", "grateful"]
+  },
+  {
+    "id": 31,
+    "text": "You make known to me the path of life; you will fill me with joy in your presence.",
+    "reference": "Psalm 16:11",
+    "book": "Psalm",
+    "chapter": 16,
+    "verse": "11",
+    "categories": ["joy", "faith"],
+    "moods": ["joyful", "grateful", "hopeful"]
+  },
+  {
+    "id": 32,
+    "text": "Rejoice in the Lord always. I will say it again: Rejoice!",
+    "reference": "Philippians 4:4",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": "4",
+    "categories": ["joy", "faith"],
+    "moods": ["joyful", "grateful"]
+  },
+  {
+    "id": 33,
+    "text": "The joy of the Lord is your strength.",
+    "reference": "Nehemiah 8:10",
+    "book": "Nehemiah",
+    "chapter": 8,
+    "verse": "10",
+    "categories": ["joy", "strength"],
+    "moods": ["joyful", "needingStrength"]
+  },
+  {
+    "id": 34,
+    "text": "A joyful heart is good medicine, but a crushed spirit dries up the bones.",
+    "reference": "Proverbs 17:22",
+    "book": "Proverbs",
+    "chapter": 17,
+    "verse": "22",
+    "categories": ["joy", "wisdom"],
+    "moods": ["joyful", "sad"]
+  },
+  {
+    "id": 35,
+    "text": "Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you.",
+    "reference": "Deuteronomy 31:6",
+    "book": "Deuteronomy",
+    "chapter": 31,
+    "verse": "6",
+    "categories": ["courage", "strength"],
+    "moods": ["fearful", "needingStrength"]
+  },
+  {
+    "id": 36,
+    "text": "Blessed are the pure in heart, for they will see God.",
+    "reference": "Matthew 5:8",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": "8",
+    "categories": ["faith", "virtue"],
+    "moods": ["hopeful", "grateful"]
+  },
+  {
+    "id": 37,
+    "text": "Seek first his kingdom and his righteousness, and all these things will be given to you as well.",
+    "reference": "Matthew 6:33",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": "33",
+    "categories": ["faith", "wisdom"],
+    "moods": ["hopeful", "seekingGuidance"]
+  },
+  {
+    "id": 38,
+    "text": "For the word of God is alive and active. Sharper than any double-edged sword.",
+    "reference": "Hebrews 4:12",
+    "book": "Hebrews",
+    "chapter": 4,
+    "verse": "12",
+    "categories": ["faith", "strength"],
+    "moods": ["inspired", "hopeful"]
+  },
+  {
+    "id": 39,
+    "text": "I have not given you a spirit of fear, but of power, of love, and of a sound mind.",
+    "reference": "2 Timothy 1:7",
+    "book": "2 Timothy",
+    "chapter": 1,
+    "verse": "7",
+    "categories": ["courage", "strength"],
+    "moods": ["fearful", "needingStrength"]
+  },
+  {
+    "id": 40,
+    "text": "The Lord will fight for you; you need only to be still.",
+    "reference": "Exodus 14:14",
+    "book": "Exodus",
+    "chapter": 14,
+    "verse": "14",
+    "categories": ["protection", "faith"],
+    "moods": ["fearful", "anxious"]
+  },
+  {
+    "id": 41,
+    "text": "God is our refuge and strength, an ever-present help in trouble.",
+    "reference": "Psalm 46:1",
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": "1",
+    "categories": ["protection", "strength"],
+    "moods": ["fearful", "overwhelmed", "anxious"]
+  },
+  {
+    "id": 42,
+    "text": "Keep your eyes on Jesus, who is both the source and the goal of your faith.",
+    "reference": "Hebrews 12:2",
+    "book": "Hebrews",
+    "chapter": 12,
+    "verse": "2",
+    "categories": ["faith", "focus"],
+    "moods": ["hopeful", "inspired"]
+  },
+  {
+    "id": 43,
+    "text": "No, in all these things we are more than conquerors through him who loved us.",
+    "reference": "Romans 8:37",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": "37",
+    "categories": ["victory", "strength"],
+    "moods": ["inspired", "hopeful", "needingStrength"]
+  },
+  {
+    "id": 44,
+    "text": "For we walk by faith, not by sight.",
+    "reference": "2 Corinthians 5:7",
+    "book": "2 Corinthians",
+    "chapter": 5,
+    "verse": "7",
+    "categories": ["faith", "wisdom"],
+    "moods": ["hopeful", "inspired"]
+  },
+  {
+    "id": 45,
+    "text": "Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience.",
+    "reference": "Colossians 3:12",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": "12",
+    "categories": ["virtue", "love"],
+    "moods": ["grateful", "inspired"]
+  },
+  {
+    "id": 46,
+    "text": "Let the peace of Christ rule in your hearts, since as members of one body you were called to peace.",
+    "reference": "Colossians 3:15",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": "15",
+    "categories": ["peace", "faith"],
+    "moods": ["seekingPeace", "hopeful"]
+  },
+  {
+    "id": 47,
+    "text": "I have told you these things, so that in me you may have peace. In this world you will have trouble.",
+    "reference": "John 16:33",
+    "book": "John",
+    "chapter": 16,
+    "verse": "33",
+    "categories": ["peace", "faith"],
+    "moods": ["seekingPeace", "anxious"]
+  },
+  {
+    "id": 48,
+    "text": "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own.",
+    "reference": "Matthew 6:34",
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": "34",
+    "categories": ["peace", "wisdom"],
+    "moods": ["anxious", "overwhelmed", "seekingPeace"]
+  },
+  {
+    "id": 49,
+    "text": "Blessed is the man who trusts in the Lord, whose confidence is in him.",
+    "reference": "Jeremiah 17:7",
+    "book": "Jeremiah",
+    "chapter": 17,
+    "verse": "7",
+    "categories": ["faith", "blessing"],
+    "moods": ["hopeful", "grateful"]
+  },
+  {
+    "id": 50,
+    "text": "Before they call I will answer; while they are still speaking I will hear.",
+    "reference": "Isaiah 65:24",
+    "book": "Isaiah",
+    "chapter": 65,
+    "verse": "24",
+    "categories": ["faith", "answered prayer"],
+    "moods": ["hopeful", "grateful"]
+  },
+  {
+    "id": 51,
+    "text": "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you.",
+    "reference": "Matthew 7:7",
+    "book": "Matthew",
+    "chapter": 7,
+    "verse": "7",
+    "categories": ["faith", "answered prayer"],
+    "moods": ["hopeful", "seekingGuidance"]
+  },
+  {
+    "id": 52,
+    "text": "Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us.",
+    "reference": "Ephesians 3:20",
+    "book": "Ephesians",
+    "chapter": 3,
+    "verse": "20",
+    "categories": ["faith", "blessing"],
+    "moods": ["hopeful", "inspired"]
+  },
+  {
+    "id": 53,
+    "text": "I am the way and the truth and the life. No one comes to the Father except through me.",
+    "reference": "John 14:6",
+    "book": "John",
+    "chapter": 14,
+    "verse": "6",
+    "categories": ["faith", "salvation"],
+    "moods": ["hopeful", "inspired"]
+  },
+  {
+    "id": 54,
+    "text": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+    "reference": "John 3:16",
+    "book": "John",
+    "chapter": 3,
+    "verse": "16",
+    "categories": ["love", "faith", "salvation"],
+    "moods": ["hopeful", "grateful", "joyful"]
+  },
+  {
+    "id": 55,
+    "text": "Jesus answered, 'I am the bread of life. He who comes to me will never go hungry, and he who believes in me will never be thirsty.'",
+    "reference": "John 6:35",
+    "book": "John",
+    "chapter": 6,
+    "verse": "35",
+    "categories": ["faith", "sustenance"],
+    "moods": ["hopeful", "inspired"]
+  },
+  {
+    "id": 56,
+    "text": "Let us hold unswervingly to the hope we profess, for he who promised is faithful.",
+    "reference": "Hebrews 10:23",
+    "book": "Hebrews",
+    "chapter": 10,
+    "verse": "23",
+    "categories": ["hope", "faith"],
+    "moods": ["hopeful", "inspired"]
+  },
+  {
+    "id": 57,
+    "text": "Therefore each of you must put off falsehood and speak truthfully to your neighbor, for we are all members of one body.",
+    "reference": "Ephesians 4:25",
+    "book": "Ephesians",
+    "chapter": 4,
+    "verse": "25",
+    "categories": ["virtue", "wisdom"],
+    "moods": ["inspired", "grateful"]
+  },
+  {
+    "id": 58,
+    "text": "Be completely humble and gentle; be patient, bearing with one another in love.",
+    "reference": "Ephesians 4:2",
+    "book": "Ephesians",
+    "chapter": 4,
+    "verse": "2",
+    "categories": ["virtue", "love"],
+    "moods": ["inspired", "grateful"]
+  },
+  {
+    "id": 59,
+    "text": "But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have.",
+    "reference": "1 Peter 3:15",
+    "book": "1 Peter",
+    "chapter": 3,
+    "verse": "15",
+    "categories": ["faith", "courage"],
+    "moods": ["hopeful", "inspired"]
+  },
+  {
+    "id": 60,
+    "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.",
+    "reference": "Romans 12:2",
+    "book": "Romans",
+    "chapter": 12,
+    "verse": "2",
+    "categories": ["transformation", "faith"],
+    "moods": ["inspired", "hopeful"]
+  },
+  {
+    "id": 61,
+    "text": "I can do everything through Christ, who gives me strength.",
+    "reference": "Philippians 4:13",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": "13",
+    "categories": ["strength", "faith"],
+    "moods": ["needingStrength", "inspired", "hopeful"]
+  },
+  {
+    "id": 62,
+    "text": "For God did not give us a spirit of timidity, but a spirit of power, of love and of self-discipline.",
+    "reference": "2 Timothy 1:7",
+    "book": "2 Timothy",
+    "chapter": 1,
+    "verse": "7",
+    "categories": ["courage", "strength"],
+    "moods": ["fearful", "inspired"]
+  },
+  {
+    "id": 63,
+    "text": "Blessed is the one who perseveres under trial because, having stood the test, that person will receive the crown of life.",
+    "reference": "James 1:12",
+    "book": "James",
+    "chapter": 1,
+    "verse": "12",
+    "categories": ["perseverance", "blessing"],
+    "moods": ["inspired", "hopeful", "overwhelmed"]
+  },
+  {
+    "id": 64,
+    "text": "By grace you have been saved, through faith—and this is not from yourselves, it is the gift of God.",
+    "reference": "Ephesians 2:8",
+    "book": "Ephesians",
+    "chapter": 2,
+    "verse": "8",
+    "categories": ["grace", "faith"],
+    "moods": ["grateful", "hopeful"]
+  },
+  {
+    "id": 65,
+    "text": "Grace and peace to you from God our Father and the Lord Jesus Christ.",
+    "reference": "1 Corinthians 1:3",
+    "book": "1 Corinthians",
+    "chapter": 1,
+    "verse": "3",
+    "categories": ["grace", "peace"],
+    "moods": ["peaceful", "grateful"]
+  },
+  {
+    "id": 66,
+    "text": "The Lord bless you and keep you; the Lord make his face to shine upon you and be gracious to you; the Lord turn his face toward you and give you peace.",
+    "reference": "Numbers 6:24-26",
+    "book": "Numbers",
+    "chapter": 6,
+    "verse": "24-26",
+    "categories": ["blessing", "peace"],
+    "moods": ["grateful", "peaceful"]
+  },
+  {
+    "id": 67,
+    "text": "I myself am convinced, my brothers and sisters, that you yourselves are full of goodness, filled with knowledge and competent to instruct one another.",
+    "reference": "Romans 15:14",
+    "book": "Romans",
+    "chapter": 15,
+    "verse": "14",
+    "categories": ["faith", "encouragement"],
+    "moods": ["inspired", "grateful"]
+  },
+  {
+    "id": 68,
+    "text": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!",
+    "reference": "2 Corinthians 5:17",
+    "book": "2 Corinthians",
+    "chapter": 5,
+    "verse": "17",
+    "categories": ["transformation", "faith"],
+    "moods": ["hopeful", "inspired"]
+  },
+  {
+    "id": 69,
+    "text": "For as high as the heavens are above the earth, so great is his love for those who fear him.",
+    "reference": "Psalm 103:11",
+    "book": "Psalm",
+    "chapter": 103,
+    "verse": "11",
+    "categories": ["love", "faith"],
+    "moods": ["grateful", "hopeful"]
+  },
+  {
+    "id": 70,
+    "text": "I have loved you with an everlasting love; I have drawn you with unfailing kindness.",
+    "reference": "Jeremiah 31:3",
+    "book": "Jeremiah",
+    "chapter": 31,
+    "verse": "3",
+    "categories": ["love", "faith"],
+    "moods": ["grateful", "hopeful", "joyful"]
+  },
+  {
+    "id": 71,
+    "text": "Because your love is better than life, my lips will glorify you.",
+    "reference": "Psalm 63:3",
+    "book": "Psalm",
+    "chapter": 63,
+    "verse": "3",
+    "categories": ["love", "faith"],
+    "moods": ["grateful", "joyful"]
+  },
+  {
+    "id": 72,
+    "text": "You are my strength, I sing praise to you; you, God, are my fortress, my God on whom I can rely.",
+    "reference": "Psalm 59:9",
+    "book": "Psalm",
+    "chapter": 59,
+    "verse": "9",
+    "categories": ["strength", "faith"],
+    "moods": ["inspired", "hopeful"]
+  },
+  {
+    "id": 73,
+    "text": "Praise the Lord, my soul, and forget not all his benefits.",
+    "reference": "Psalm 103:2",
+    "book": "Psalm",
+    "chapter": 103,
+    "verse": "2",
+    "categories": ["praise", "gratitude"],
+    "moods": ["grateful", "joyful"]
+  },
+  {
+    "id": 74,
+    "text": "Through Jesus, therefore, let us continually offer to God a sacrifice of praise—the fruit of lips that openly profess his name.",
+    "reference": "Hebrews 13:15",
+    "book": "Hebrews",
+    "chapter": 13,
+    "verse": "15",
+    "categories": ["praise", "faith"],
+    "moods": ["grateful", "joyful"]
+  },
+  {
+    "id": 75,
+    "text": "Sing to the Lord a new song, for he has done marvelous things; his right hand and his holy arm have worked salvation for him.",
+    "reference": "Psalm 98:1",
+    "book": "Psalm",
+    "chapter": 98,
+    "verse": "1",
+    "categories": ["praise", "salvation"],
+    "moods": ["joyful", "grateful"]
+  },
+  {
+    "id": 76,
+    "text": "Everyone who is thirsty, come to the waters; and you who have no money, come, buy and eat!",
+    "reference": "Isaiah 55:1",
+    "book": "Isaiah",
+    "chapter": 55,
+    "verse": "1",
+    "categories": ["grace", "invitation"],
+    "moods": ["hopeful", "invited"]
+  },
+  {
+    "id": 77,
+    "text": "Come, all you who are thirsty, come to the waters; and you who have no money, come, buy and eat!",
+    "reference": "Isaiah 55:1",
+    "book": "Isaiah",
+    "chapter": 55,
+    "verse": "1",
+    "categories": ["grace", "comfort"],
+    "moods": ["hopeful", "comfortable"]
+  },
+  {
+    "id": 78,
+    "text": "The thief comes only to steal and kill and destroy; I have come that they may have life, and have it to the full.",
+    "reference": "John 10:10",
+    "book": "John",
+    "chapter": 10,
+    "verse": "10",
+    "categories": ["life", "salvation"],
+    "moods": ["hopeful", "inspired"]
+  },
+  {
+    "id": 79,
+    "text": "My grace is sufficient for you, for my power is made perfect in weakness.",
+    "reference": "2 Corinthians 12:9",
+    "book": "2 Corinthians",
+    "chapter": 12,
+    "verse": "9",
+    "categories": ["grace", "strength"],
+    "moods": ["needingStrength", "hopeful", "grateful"]
+  },
+  {
+    "id": 80,
+    "text": "You, dear children, are from God and have overcome them, because the one who is in you is greater than the one who is in the world.",
+    "reference": "1 John 4:4",
+    "book": "1 John",
+    "chapter": 4,
+    "verse": "4",
+    "categories": ["strength", "victory"],
+    "moods": ["inspired", "hopeful"]
+  },
+  {
+    "id": 81,
+    "text": "I know what it is to be in need, and I know what it is to have plenty. I have learned the secret of being content in any and every situation.",
+    "reference": "Philippians 4:12",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": "12",
+    "categories": ["contentment", "wisdom"],
+    "moods": ["peaceful", "grateful"]
+  },
+  {
+    "id": 82,
+    "text": "Keep your lives free from the love of money and be content with what you have, because God has said, 'Never will I leave you; never will I forsake you.'",
+    "reference": "Hebrews 13:5",
+    "book": "Hebrews",
+    "chapter": 13,
+    "verse": "5",
+    "categories": ["contentment", "faith"],
+    "moods": ["peaceful", "grateful"]
+  },
+  {
+    "id": 83,
+    "text": "Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience.",
+    "reference": "Colossians 3:12",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": "12",
+    "categories": ["virtue", "character"],
+    "moods": ["inspired", "grateful"]
+  },
+  {
+    "id": 84,
+    "text": "And over all these virtues put on love, which binds them all together in perfect unity.",
+    "reference": "Colossians 3:14",
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": "14",
+    "categories": ["love", "virtue"],
+    "moods": ["grateful", "inspired"]
+  },
+  {
+    "id": 85,
+    "text": "Let your light shine before others, that they may see your good deeds and glorify your Father in heaven.",
+    "reference": "Matthew 5:16",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": "16",
+    "categories": ["witness", "faith"],
+    "moods": ["inspired", "hopeful"]
+  },
+  {
+    "id": 86,
+    "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+    "reference": "Matthew 5:14",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": "14",
+    "categories": ["purpose", "faith"],
+    "moods": ["inspired", "hopeful"]
+  },
+  {
+    "id": 87,
+    "text": "Therefore, go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit.",
+    "reference": "Matthew 28:19",
+    "book": "Matthew",
+    "chapter": 28,
+    "verse": "19",
+    "categories": ["mission", "faith"],
+    "moods": ["inspired", "hopeful"]
+  },
+  {
+    "id": 88,
+    "text": "Do to others what you would have them do to you, for this sums up the Law and the Prophets.",
+    "reference": "Matthew 7:12",
+    "book": "Matthew",
+    "chapter": 7,
+    "verse": "12",
+    "categories": ["wisdom", "virtue"],
+    "moods": ["inspired", "grateful"]
+  },
+  {
+    "id": 89,
+    "text": "Hear now, you who know what is right, you people who have taken my instruction to heart: Do not fear the reproach of mere mortals or be terrified by their insults.",
+    "reference": "Isaiah 51:7",
+    "book": "Isaiah",
+    "chapter": 51,
+    "verse": "7",
+    "categories": ["courage", "faith"],
+    "moods": ["fearful", "inspired"]
+  },
+  {
+    "id": 90,
+    "text": "So whether you eat or drink or whatever you do, do it all for the glory of God.",
+    "reference": "1 Corinthians 10:31",
+    "book": "1 Corinthians",
+    "chapter": 10,
+    "verse": "31",
+    "categories": ["purpose", "wisdom"],
+    "moods": ["inspired", "grateful"]
+  },
+  {
+    "id": 91,
+    "text": "Whether you turn to the right or to the left, your ears will hear a voice behind you, saying, 'This is the way; walk in it.'",
+    "reference": "Isaiah 30:21",
+    "book": "Isaiah",
+    "chapter": 30,
+    "verse": "21",
+    "categories": ["guidance", "faith"],
+    "moods": ["hopeful", "seekingGuidance"]
+  },
+  {
+    "id": 92,
+    "text": "Show me your ways, Lord, teach me your paths. Guide me in your truth and teach me, for you are God my Savior, and my hope is in you all day long.",
+    "reference": "Psalm 25:4-5",
+    "book": "Psalm",
+    "chapter": 25,
+    "verse": "4-5",
+    "categories": ["guidance", "faith"],
+    "moods": ["hopeful", "seekingGuidance"]
+  },
+  {
+    "id": 93,
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
+    "reference": "Proverbs 3:5-6",
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": "5-6",
+    "categories": ["faith", "guidance"],
+    "moods": ["hopeful", "seekingGuidance"]
+  },
+  {
+    "id": 94,
+    "text": "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
+    "reference": "Isaiah 41:10",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": "10",
+    "categories": ["courage", "strength"],
+    "moods": ["fearful", "hopeful", "needingStrength"]
+  },
+  {
+    "id": 95,
+    "text": "The Lord is my shepherd, I lack nothing. He makes me lie down in green pastures, he leads me beside quiet waters, he refreshes my soul.",
+    "reference": "Psalm 23:1-3",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": "1-3",
+    "categories": ["comfort", "peace"],
+    "moods": ["peaceful", "grateful", "hopeful"]
+  },
+  {
+    "id": 96,
+    "text": "Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.",
+    "reference": "Psalm 23:4",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": "4",
+    "categories": ["comfort", "protection"],
+    "moods": ["fearful", "hopeful", "comforted"]
+  },
+  {
+    "id": 97,
+    "text": "Surely your goodness and love will follow me all the days of my life, and I will dwell in the house of the Lord forever.",
+    "reference": "Psalm 23:6",
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": "6",
+    "categories": ["faith", "blessing"],
+    "moods": ["grateful", "hopeful", "joyful"]
+  },
+  {
+    "id": 98,
+    "text": "The heavens declare the glory of God; the skies proclaim the work of his hands.",
+    "reference": "Psalm 19:1",
+    "book": "Psalm",
+    "chapter": 19,
+    "verse": "1",
+    "categories": ["worship", "faith"],
+    "moods": ["inspired", "grateful"]
+  },
+  {
+    "id": 99,
+    "text": "How great you are, Lord God! There is none like you, and there is no God besides you, as we have heard with our own ears.",
+    "reference": "2 Samuel 7:22",
+    "book": "2 Samuel",
+    "chapter": 7,
+    "verse": "22",
+    "categories": ["worship", "faith"],
+    "moods": ["grateful", "joyful"]
+  },
+  {
+    "id": 100,
+    "text": "May the grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with you all.",
+    "reference": "2 Corinthians 13:14",
+    "book": "2 Corinthians",
+    "chapter": 13,
+    "verse": "14",
+    "categories": ["grace", "blessing"],
+    "moods": ["grateful", "peaceful", "joyful"]
   }
 ]
