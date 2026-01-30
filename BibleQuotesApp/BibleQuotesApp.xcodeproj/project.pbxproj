@@ -4,360 +4,300 @@
   classes = {};
   objectVersion = 55;
   objects = {
-
 /* Begin PBXBuildFile section */
-    A1000001 /* BibleQuotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* BibleQuotesAppApp.swift */; };
-    A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
-    A1000003 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* AllQuotesView.swift */; };
-    A1000004 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* FavoritesView.swift */; };
-    A1000005 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* Quote.swift */; };
-    A1000006 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* QuoteService.swift */; };
-    A1000007 /* FavoritesManager.swift in Sources */ = {isa =// !$*UTF8*$!
-{
-  archiveVersion = 1;
-  classes = {};
-  objectVersion = 55;
-  objects = {
-
-/* Begin PBXBuildFile sectio= {
-  archiveVildF  classes = {};
-  ob00  objectVersioes  objects = {
-
-/* Be  
-/* Begin PBquo    A1000001 /* BibleQuotesAppA =    A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
-    A10000 A    A1000003 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* AllQuotesView.swift *uo    A1000004 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* FavoritesView.swift */; }a     A1000005 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* Quote.swift */; };
-    A1000006 / =    A1000006 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* QuoteServiou    A1000007 /* FavoritesManager.swift in Sources */ = {isa =// !$*UTF8*$!
-{
-  archiveVersion = 1;
-  classes = {};
-  o /{
-  archiveVersion = 1;
-  classes = {};
-  objectVersion = 55;
-  objects =ourc  classes = {};
-  obFa  objectVersioif  objects = {
-
-/* Beri
-/* Begin PBt;   archiveVildF  classes = {};
-    ob00  objectVersioes  obje= 
-/* Be  
-/* Begin PBquo    A100000FileType =     A10000 A    A1000003 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* AllQuotesView.swift * */ = {isa = PBXFileReference; lastKn    A1000006 / =    A1000006 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* QuoteServiou    A1000007 /* FavoritesManager.swift in Sources */ = {isa =// !$*UTF8*$!
-{
-  archiveVersion = 1;
-  classes = {};
-  o /{
-  archiveVersion = 1;
-  classes = {};
-  objectVersion = 55;
-  objects =ourc  classes = {};
-  obFa  objectVersioies{
-  archiveVersion = 1;
-  classes = {};
-  o /{
-  archiveVersion = 1;
-  classes = {};
-  objectVersion = 55;
-  objects =ourc  classes = {};
-  obFa  objectVersioif  objects = {
-
-/* Beri
-/* Begin PBt.jso  classes = {};
-  o eR  o /{
-  archiKn  arcle  classes = {};
-  oame  objectVersio;   objects =ourc  claso  obFa  objectVersioif  objec};
-/* Beri
-/* Begin PBt;   archiveVpp */* Begsa    ob00  objectVersioes  obje= 
-/* Be  
-/ap/* Be  
-/* Begin PBquo    A1000 =/* Begth{
-  archiveVersion = 1;
-  classes = {};
-  o /{
-  archiveVersion = 1;
-  classes = {};
-  objectVersion = 55;
-  objects =ourc  classes = {};
-  obFa  objectVersioies{
-  archiveVersion = 1;
-  classes = {};
-  o /{
-  archiveVersion = 1;
-  classes = {};
-  objectVersion = 55;
-  objects =ourc  classes = {};
-  obFa  objectVersioif  objects = {
-
-/* Beri
-/* Begin PBt.jso  classes = {};
-  o eR  o /{
-  archi
-     classes = {};
-  o or  o /{
-  archipr  arcin  cl0;
+    A1000001 /* BibleQuotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001; };
+    A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002; };
+    A1000003 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003; };
+    A1000004 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004; };
+    A1000005 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005; };
+    A1000006 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006; };
+    A1000007 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007; };
+    A1000008 /* BibleQuotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008; };
+    A1000009 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000009; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+    A2000001 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleQuotesAppApp.swift; sourceTree = SOURCE_ROOT; };
+    A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
+    A2000003 /* AllQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/AllQuotesView.swift; sourceTree = SOURCE_ROOT; };
+    A2000004 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FavoritesView.swift; sourceTree = SOURCE_ROOT; };
+    A2000005 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Quote.swift; sourceTree = SOURCE_ROOT; };
+    A2000006 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/QuoteService.swift; sourceTree = SOURCE_ROOT; };
+    A2000007 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/FavoritesManager.swift; sourceTree = SOURCE_ROOT; };
+    A2000008 /* BibleQuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data/BibleQuotesData.swift; sourceTree = SOURCE_ROOT; };
+    A2000009 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data/quotes.json; sourceTree = SOURCE_ROOT; };
+    A3000003 /* BibleQuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleQuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXSourcesBuildPhase section */
+    A3000001 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        A1000001,
+        A1000002,
+        A1000003,
+        A1000004,
+        A1000005,
+        A1000006,
+        A1000007,
+        A1000008,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
     };
-/* End P  objectVersioPh  objects =ourc  claegin PBXResourcesBuildPhase secti  archiveVersion = 1;
- es  classes = {};
-  o is  o /{
-  archies  arcPh  classes  buildActionMask = 214748364  objects =ourc  cla       A1000009,
+/* End PBXSourcesBuildPhase section */
+/* Begin PBXResourcesBuildPhase section */
+    A3000002 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        A1000009,
       );
-      r
-/* Beri
-/* Begin PBt.jso  classes= 0/* Beg};  o eR  o /{
-  archiKn  arcle  s  archiKn  /*  oame  objectVersio;   object A/* Beri
-/* Begin PBt;   archiveVpp */   children = (
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXGroup section */
+    A4000001 = {
+      isa = PBXGroup;
+      children = (
         A4000002,
-     /* Beg00/* Be  
-/ap/* Be  
-/* Begin PBquo    A1000 =    };
+        A5000001,
+      );
+      sourceTree = "<group>";
+    };
     A4000002 = {
-      isa/* Begin up  archiveVersion = 1;
-  classes =00  classes = {};
-  02,
-  o /{
-  a000003  arc    classes = {};
-  ob A  objectV         objects =ourc  cla    obFa  objectVersioies{
-  a     archiveVersion = 1;
- ;
-  classes = {};
-  o OU  o /{
-  archi};  arcA4  classes = {    isa =  objectVersio    hildren = (
-          obFa  objectVersioif  objec  
-/* Beri
-/* Begin PBt.jso  classesurc/Tree =   o eR  o /{
-  archi
-   000004 =  archi
-   a   PBXGro  o or  o /{
-  arn   archipr   A    };
-/* End P  obje   name = es  classes = {};
-  o is  o /{
-  archies  arcPh  classes  buildActionMask = 214748364  objects =en  o is  o /{
-  ar00  archies   A      );
-      r
-/* Beri
-/* Begin PBt.jso  classes= 0/* Beg};  o eR  o /{
-  archiKn  arcl6       r  /* Ber P/* Begp;  archiKn  arcle  s  archiKn  /*  oame  objectV20/* Begin PBt;   archiveVpp */   children = (
-        A4000002,
-     /*;
-        A4000002,
-     /* Beg00/* Be  
-/ap/       /* Beg00/*   /ap/* Be  
-/* Begin);/* Begin me    A4000002 = {
-      isa/* B=       isa/* Beg};  classes =00  classes = {};
-  02,
-  o /XN  02,
-  o /{
-  a000003  arcA5  o 02  a00ib  ob A  objectV         object P  a     archiveVersion = 1;
- ;
-  classes = {};
-  o OU  o /{
-  archidP ;
-  classes = {};
-  o OU ,
-     o OU  o /{
- 
+      isa = PBXGroup;
+      children = (
+        A2000001,
+        A2000002,
+        A4000003,
+        A4000004,
+        A4000005,
+        A4000006,
       );
-               obFa  objectVersioif  objec  
-/* Beri
-/* Begin PBt.jso  sA/* Beri
-/* Begin PBt.jso  classesurc/T;
-/* Begpr  archi
-   000004 =  archi
-   a   PBXGro  o or "com.apple   a   PBXGro  o li  arn   archipr   A    }BX/* End P  obje   name = 
-/  o is  o /{
-  archies  arcPh  classes  04  archies   o  ar00  archies   A      );
-      r
-/* Beri
-/* Begin PBt.jso  classes= 0/* Beghe      r
-/* Beri
-/* Begin PbuildConfi/* Begon  archiKn  arcl6       r  /* Ber P/* Begp;  arcXc        A4000002,
-     /*;
-        A4000002,
-     /* Beg00/* Be  
-/ap/       /* Beg00/*   /ap/* Be  
-/* Begin);/* Begin me    A4000002       /*;
-        =       01     /* Beg00/* ir/ap/       /* Beg00oj/* Begin);/* Begin me    A4000002        isa/* B=       isa/* Beg};  End   02,
-  o /XN  02,
-  o /{
-  a000003  arcA5  o 02  a00ib  obn   o    A5000006 /*   a00 * ;
-  classes = {};
-  o OU  o /{
-  archidP ;
-  classes = {};
-  o OU ,
-     o OU  o /{
- 
- = Au  o OU  o /{
-     archidP ;OJ  classes N   o OU ,
-     EVELOPMENT_ 
+      path = BibleQuotesApp;
+      sourceTree = SOURCE_ROOT;
+    };
+    A4000003 = {
+      isa = PBXGroup;
+      children = (
+        A2000003,
+        A2000004,
       );
-        GENERATE/* Beri
-/* Begin PBt.jso  sA/* Beri
-/* BegiLE = Bible/* Begin PBt.jso  classe    /* Begpr  archi
-   000004 =  ace   000004 =  a =   a   PBXGro  o ne/  o is  o /{
-  archies  arcPh  classes  04  archies   o  ar00  archies   A      );
-      r
-/* BerYM  archies  a 1      r
-/* Beri
-/* Begin PBt.jso  classes= 0/* Beghe      r
-/* Beri
-h//* Beror/* Beg  /* Beri
-/* Begin PbuildConfi/* Begon  archUCT_BUNDLE     /*;
-        A4000002,
-     /* Beg00/* Be  
-/ap/       /* Beg00/*   /ap/* Be  
-/* Begin);SWIFT_VERSI     /* Beg00/*   /ap/       /* Beg0MIL/* Begin);/* Begin me    A4000002De        =       01     /* Beg00/* ir/ap/  
-   o /XN  02,
-  o /{
-  a000003  arcA5  o 02  a00ib  obn   o    A5000006 /*   a00 * ;
-  classes = {};
-  o OU  o /{
-  archidP ;
-  classes     DEVELOPMEN  a00M   classes = {};
-  o OU  o /{
-  archidP ;
-  classes = {};
-  o O_F  o OU  o /{
- te  archidP ;li  classes     o OU ,
-     UI     o ti 
- = Au  o OU tTyp    UIApplicationS     EVELOPMENT_ 
+      name = Views;
+      sourceTree = "<group>";
+    };
+    A4000004 = {
+      isa = PBXGroup;
+      children = (
+        A2000005,
       );
-                );
-       UI       ry/* Begin PBt.jso  sA/*  /* BegiLE = Bible/* Begin  =   000004 =  ace   000004 =  a =   a   PBXGro  o ne/  o is cu  archies  arcPh  classes  04  archies   o  ar00  archies   A          r
-/* BerYM  archies  a 1      r
-/* Beri
-/* Begin PBt.jso  clasODUCT_NAME/* Beri
-/* Begin PBt.jso  c  S/*FT_VER/* Beri
-h//* Beror/* Beg  /* Beri
-/* Begin =h//* B;
-/* Begin PbuildConfi/* Ble        A4000002,
-     /* Beg00/* Be  
-/ap/       /=      /* Beg00/* ti/ap/       /* Beg00in/* Begin);SWIFT_VERSI     /* Beg0_P   o /XN  02,
-  o /{
-  a000003  arcA5  o 02  a00ib  obn   o    A5000006 /*   a00 * ;
-  classeION = YES_AGGRESSIVE;
-        CLANG_CXX_LANGU  o /{
-  a00= "c++17"  classes = {};
-  o OU  o /{
-  archidP ;
-  classes     DEVELOPOD  o OU  o /{
-     archidP ;NA  classes RC  o OU  o /{
-  archidP ;
-  classes = {};
-  o RELEASING = YES  classes CL  o O_F  o OU CO te  archidP ;li         UI     o ti 
- = Au  o OU tTyp  C = Au  o OU tTypNT      );
-                );
-       UI       ry/* BBJC_IMPLEME       UI     ;
-   /* BerYM  archies  a 1      r
-/* Beri
-/* Begin PBt.jso  clasODUCT_NAME/* Beri
-/* Begin PBt.jso  c  S/*FT_VER/* Beri
-h//* Beror/* Beg  /* Beri
-/* Begin =h//* B;
-/* Begin PbuildConfi/* Ble        A4000002NI/* Beri
-/* Begin PBt.jso  clCL/* BegRN/* Begin PBt.jso  c  S/*FT_VER/* Beri
-ARh//* Beror/* Beg  /* Beri
-/* Begin =
- /* Begin =h//* B;
-/* BegMP/* Begin PbuildCF      /* Beg00/* Be  
-/ap/       /=      /*VE/ap/       /=          o /{
-  a000003  arcA5  o 02  a00ib  obn   o    A5000006 /*   a00 * ;
-  classeION = YES_AGGRESSIVE;
-          classeION = YES_AGGRESSIVE;
-        CLANG_CXX_LANGU  o /{
-  T_        CLANG_CXX_LANGU  o /AN  a00= "c++17"  classes = {};
-  o OU  o /{
-  archidP ;
-IOUS_  archidP ;;
-        CLAN     archidP ;NA  classes RC  o OU    archidP ;
-  classes = {};
-  o RELEASI YES;
-          o RELEASISTRIP = Au  o OU tTyp  C = Au  o OU tTypNT      );
-                );
-       UI       ry =                );
-       UI       ry/* BBJC         UI       rLE   /* BerYM  archies  a 1      r
-/* Beri
-/* Beg  /* Beri
-/* Begin PBt.js = YES;
-  /* BegGC/* Begin PBt.jso  c  S/*FT_VER/* Beri
-PRh//* Beror/* Beg  /* Beri
-/* Begin =in/* Begin =h//* B;
-/* BegAR/* Begin PbuildCON/* Begin PBt.jso  clCL/* BegRN/* Begin PBt.jso  c = ARh//* Beror/* Beg  /* Beri
-/* Begin =
- /* Begin =h//* B;
-/* BegMP_W/* Begin =
- /* Begin =h//*YE /* BeginIV/* BegMP/* BegiWARN/ap/       /=      /*V;
-        GCC_WARN_UNUSED  a000003  arcA5  o 02  a00ib  obLE_DEBUG_INFO = IN  classeION = YES_AGGRESSIVE;
-          classeION = YES_AGGRES_A          classeION = YES_AG i        CLANG_CXX_LANGU  o /{
-  T_  AT  T_        CLA= DEBUG;
-        o OU  o /{
-  archidP ;
-IOUS_  archidP ;;
-        CLAN     areb  archidP ;  IOUS_  arc /        CLAN    
-   classes = {};
-  o RELEASI YES;
-          o RELEASISTRIP     o RELEASI YEAR          o REL N                );
-       UI       ry =                );
-       UI ER       UI       rN        UI       ry/* BBJC         UI AN/* Beri
-/* Beg  /* Beri
-/* Begin PBt.js = YES;
-  /* BegGC/* Begin PBt.jso  c EN/* BegOD/* Begin PBt.j    /* BegGC/* Begin PB_APRh//* Beror/* Beg  /* Beri
-/* Begin =in/* BeTOR/* Begin =in/* Begin =h//*AN/* BegAR/* Begin PbuildCONES;
-/* Begin =
- /* Begin =h//* B;
-/* BegMP_W/* Begin =
- /* Begin =h//*YE /* BeginIV/* BegMP/* BegiWARN/ap/  TE /* BeginPL/* BegMP_W/* Begi;
- /* Begin =h//*YRN_DI      BJC_ISA_USAGE = YES_ERROR;
-        CLANG_WARN_DOCUMENTATION_COMME          classeION = YES_AGGRES_A          classeION = YES_AG i        CLANG_CXX_LANGU  o /{
-  T_  ATG_  T_  AT  T_        CLA= DEBUG;
-        o OU  o /{
-  archidP ;
-IOUS_  archidP ;;
-        CLAON        o OU  o /{
-  archidP S;
-  archidP ;
-IOUS_N_IOUS_  arcCI        CLANF = YE   classes = {};
-  o RELEASI YES;
-          o RELEASISTRIP   CL  o RELEASI YESOO          o RELRR       UI       ry =                );
-       UI ER       UI       rN        G_       UI ER       UI       rN         /* Beg  /* Beri
-/* Begin PBt.js = YES;
-  /* BegGC/* Begin PBt.jso  c EN/* BeS;/* Begin PBt.j_W  /* BegGC/* Begin PB= /* Begin =in/* BeTOR/* Begin =in/* Begin =h//*AN/* BegAR/* Begin PbuildCONES;
-/* Begin =
- /* Begin =h//*  C/* Begin =
- /*P = NO;
-        DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-   /* BeginBL/* BegMP_W/* Begi N /* Begin =h//*YE /TR /* Begin =h//*YRN_DI      BJC_ISA_USAGE = YES_ERROR;
-        CLANG_WARN_DOCUMENTATLO        CLANG_WARN_DOCUMENTATION_COMME          clas    T_  ATG_  T_  AT  T_        CLA= DEBUG;
-        o OU  o /{
-  archidP ;
-IOUS_  archidP ;;
-        CLAON        o OU  o /{
-  archi Y        o OU  o /{
-  archidP ;
-IOUS_  ar =  archidP ;
-IOUS_  IOUS_  arcWA        CLAON   ON  archidP S;
-  archidP ;
-IOUS_D_  archidP ;YEIOUS_N_IOU M  o RELEASI YES;
-          o RELEASISTRIP   CL  o REES;
-        SDKROOT       UI ER       UI       rN        G_       UI ER       UI       rN         /* Beg  /* Beri
-/* Be  /* Begin PBt.js = YES; = YES;
+      name = Models;
+      sourceTree = "<group>";
+    };
+    A4000005 = {
+      isa = PBXGroup;
+      children = (
+        A2000006,
+        A2000007,
+      );
+      name = Services;
+      sourceTree = "<group>";
+    };
+    A4000006 = {
+      isa = PBXGroup;
+      children = (
+        A2000008,
+        A2000009,
+      );
+      name = Data;
+      sourceTree = "<group>";
+    };
+    A5000001 = {
+      isa = PBXGroup;
+      children = (
+        A3000003,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+    A5000002 /* BibleQuotesApp */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = A5000003;
+      buildPhases = (
+        A3000001,
+        A3000002,
+      );
+      buildRules = ();
+      dependencies = ();
+      name = BibleQuotesApp;
+      productName = BibleQuotesApp;
+      productReference = A3000003;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+    A5000004 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1440;
+      };
+      buildConfigurationList = A5000005;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (en,);
+      mainGroup = A4000001;
+      productRefGroup = A5000001;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        A5000002,
+      );
+    };
+/* End PBXProject section */
+/* Begin XCBuildConfiguration section */
+    A5000006 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGN_STYLE = Automatic;
+        CURRENT_PROJECT_VERSION = 1;
+        DEVELOPMENT_TEAM = "";
+        GENERATE_INFOPLIST_FILE = YES;
+        INFOPLIST_FILE = BibleQuotesApp/Info.plist;
+        INFOPLIST_KEY_UIApplicationSceneManifestType = UIApplicationSceneManifestTypeMultipleScene;
+        INFOPLIST_KEY_UIMainStoryboardFile = "";
+        IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+        LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+        MARKETING_VERSION = 1.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.BibleQuotesApp";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Debug;
+    };
+    A5000007 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGN_STYLE = Automatic;
+        CURRENT_PROJECT_VERSION = 1;
+        DEVELOPMENT_TEAM = "";
+        GENERATE_INFOPLIST_FILE = YES;
+        INFOPLIST_FILE = BibleQuotesApp/Info.plist;
+        INFOPLIST_KEY_UIApplicationSceneManifestType = UIApplicationSceneManifestTypeMultipleScene;
+        INFOPLIST_KEY_UIMainStoryboardFile = "";
+        IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+        LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+        MARKETING_VERSION = 1.0;
+        PRODUCT_BUNDLE_IDENTIFIER = "com.example.BibleQuotesApp";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
       };
       name = Release;
     };
-/* End XCBuildConfiguration  /* BegGC/* Begin PB X/* Begin =
- /* Begin =h//*  C/* Begin =
- /*P = NO;
+    A5000008 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ANALYZER_NONNULL = YES;
+        CLANG_CXX_LANGUAGE_DIALECT = "c++17";
+        CLANG_CXX_LIBRARY = "libc++";
+        CLANG_ENABLE_MODULES = YES;
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CLANG_WARN_BOOL_CONVERSION = YES;
+        CLANG_WARN_CONSTANT_CONVERSION = YES;
+        CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+        CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+        CLANG_WARN_EMPTY_BODY = YES;
+        CLANG_WARN_ENUM_CONVERSION = YES;
+        CLANG_WARN_INFINITE_RECURSION = YES;
+        CLANG_WARN_INT_CONVERSION = YES;
+        CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+        COPY_PHASE_STRIP = NO;
+        DEBUG_INFORMATION_FORMAT = dwarf;
+        ENABLE_STRICT_OBJC_MSGSEND = YES;
+        ENABLE_TESTABILITY = YES;
+        GCC_DYNAMIC_NO_PIC = NO;
+        GCC_NO_COMMON_BLOCKS = YES;
+        GCC_OPTIMIZATION_LEVEL = 0;
+        GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1 $(inherited)";
+        GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+        GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+        GCC_WARN_UNDECLARED_SELECTOR = YES;
+        GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+        GCC_WARN_UNUSED_FUNCTION = YES;
+        GCC_WARN_UNUSED_VARIABLE = YES;
+        MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+        MTL_FAST_MATH = YES;
+        ONLY_ACTIVE_ARCH = YES;
+        SDKROOT = iphoneos;
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+        SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+      };
+      name = Debug;
+    };
+    A5000009 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ANALYZER_NONNULL = YES;
+        CLANG_CXX_LANGUAGE_DIALECT = "c++17";
+        CLANG_CXX_LIBRARY = "libc++";
+        CLANG_ENABLE_MODULES = YES;
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CLANG_WARN_BOOL_CONVERSION = YES;
+        CLANG_WARN_CONSTANT_CONVERSION = YES;
+        CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+        CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+        CLANG_WARN_EMPTY_BODY = YES;
+        CLANG_WARN_ENUM_CONVERSION = YES;
+        CLANG_WARN_INFINITE_RECURSION = YES;
+        CLANG_WARN_INT_CONVERSION = YES;
+        CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+        COPY_PHASE_STRIP = NO;
         DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-   /* BeginBL/* BegMP_W/* Begi N /* Begin =h//*YEbu /* Beginur /*P = NO;
-        DEBUG_IN,
-        A50   /* BeginBL/* BegMP_W/* Begi N /* Begin =h//*YE /T=         CLANG_WARN_DOCUMENTATLO        CLANG_WARN_DOCUMENTATION_COMME          clas    T_  ATG_  T_  AT  ct        o OU  o /{
-  archidP ;
-IOUS_  archidP ;;
-        CLAON        o OU  o /{
-  archi Y        o OU  o /{
-  archidP ;
-IOUS    archidP ;
-IOUS_ltConfiguratio        CLAON       archi Y        o OU  o /{
-   R  archidP ;
-IOUS_  ar =  anfIOUS_  ar isIOUS_  IOUS_  arcWA  ro  archidP ;
-IOUS_D_  archoject object */;
+        ENABLE_NS_ASSERTIONS = NO;
+        ENABLE_STRICT_OBJC_MSGSEND = YES;
+        GCC_NO_COMMON_BLOCKS = YES;
+        GCC_OPTIMIZATION_LEVEL = fast;
+        GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+        GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+        GCC_WARN_UNDECLARED_SELECTOR = YES;
+        GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+        GCC_WARN_UNUSED_FUNCTION = YES;
+        GCC_WARN_UNUSED_VARIABLE = YES;
+        MTL_ENABLE_DEBUG_INFO = NO;
+        MTL_FAST_MATH = YES;
+        SDKROOT = iphoneos;
+        SWIFT_COMPILATION_MODE = wholemodule;
+        SWIFT_OPTIMIZATION_LEVEL = "-O";
+        VALIDATE_PRODUCT = YES;
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+    A5000003 /* Build configuration list for PBXNativeTarget "BibleQuotesApp" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        A5000006,
+        A5000007,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    A5000005 /* Build configuration list for PBXProject "BibleQuotesApp" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        A5000008,
+        A5000009,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+/* End XCConfigurationList section */
+  };
+  rootObject = A5000004 /* Project object */;
 }
