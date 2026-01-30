@@ -22,6 +22,7 @@
     A1000019 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000019; };
     A1000020 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000020; };
     A1000021 /* CharacterFlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000021; };
+    A1000022 /* ExplorePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000022; };
 /* End PBXBuildFile section */
 /* Begin PBXFileReference section */
     A2000001 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesAppApp.swift"; sourceTree = SOURCE_ROOT; };
@@ -42,6 +43,7 @@
     A2000019 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/CharacterService.swift"; sourceTree = SOURCE_ROOT; };
     A2000020 /* characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/characters.json"; sourceTree = SOURCE_ROOT; };
     A2000021 /* CharacterFlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/CharacterFlashcardView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000022 /* ExplorePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ExplorePage.swift"; sourceTree = SOURCE_ROOT; };
     A3000003 /* BibleQuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleQuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 /* Begin PBXSourcesBuildPhase section */
@@ -64,6 +66,7 @@
         A1000018,
         A1000019,
         A1000021,
+        A1000022,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -111,6 +114,7 @@
         A2000016,
         A2000017,
         A2000021,
+        A2000022,
       );
       path = Views;
       sourceTree = "<group>";

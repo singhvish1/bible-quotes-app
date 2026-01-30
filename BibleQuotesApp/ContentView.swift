@@ -11,20 +11,10 @@ struct ContentView: View {
 				Text("Home")
 			}
 
-			NavigationView {
-				BrowseView()
-			}
-			.tabItem {
-				Image(systemName: "books.vertical.fill")
-				Text("Browse")
-			}
-
-			NavigationView {
-				MoodQuotesView()
-			}
+			ExplorePage()
 			.tabItem {
 				Image(systemName: "sparkles")
-				Text("Moods")
+				Text("Explore")
 			}
 
 			FlashcardView()
