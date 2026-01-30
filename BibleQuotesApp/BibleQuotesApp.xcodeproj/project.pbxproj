@@ -17,6 +17,7 @@
     A1000014 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000014; };
     A1000015 /* MoodQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015; };
     A1000016 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000016; };
+    A1000017 /* FlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000017; };
 /* End PBXBuildFile section */
 /* Begin PBXFileReference section */
     A2000001 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesAppApp.swift"; sourceTree = SOURCE_ROOT; };
@@ -26,6 +27,7 @@
     A2000014 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/BrowseView.swift"; sourceTree = SOURCE_ROOT; };
     A2000015 /* MoodQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/MoodQuotesView.swift"; sourceTree = SOURCE_ROOT; };
     A2000016 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/SearchView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000017 /* FlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/FlashcardView.swift"; sourceTree = SOURCE_ROOT; };
     A2000005 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/Quote.swift"; sourceTree = SOURCE_ROOT; };
     A2000006 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/QuoteService.swift"; sourceTree = SOURCE_ROOT; };
     A2000007 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/FavoritesManager.swift"; sourceTree = SOURCE_ROOT; };
@@ -50,6 +52,7 @@
         A1000014,
         A1000015,
         A1000016,
+        A1000017,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
@@ -94,6 +97,7 @@
         A2000014,
         A2000015,
         A2000016,
+        A2000017,
       );
       path = Views;
       sourceTree = "<group>";

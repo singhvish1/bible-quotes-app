@@ -27,6 +27,12 @@ struct ContentView: View {
 				Text("Moods")
 			}
 
+			FlashcardView()
+			.tabItem {
+				Image(systemName: "rectangle.on.rectangle")
+				Text("Flashcards")
+			}
+
 			NavigationView {
 				SearchView()
 			}
