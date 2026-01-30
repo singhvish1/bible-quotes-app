@@ -16,15 +16,15 @@
     A1000009 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000009; };
 /* End PBXBuildFile section */
 /* Begin PBXFileReference section */
-    A2000001 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleQuotesAppApp.swift; sourceTree = SOURCE_ROOT; };
-    A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
-    A2000003 /* AllQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/AllQuotesView.swift; sourceTree = SOURCE_ROOT; };
-    A2000004 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FavoritesView.swift; sourceTree = SOURCE_ROOT; };
-    A2000005 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Quote.swift; sourceTree = SOURCE_ROOT; };
-    A2000006 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/QuoteService.swift; sourceTree = SOURCE_ROOT; };
-    A2000007 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/FavoritesManager.swift; sourceTree = SOURCE_ROOT; };
-    A2000008 /* BibleQuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data/BibleQuotesData.swift; sourceTree = SOURCE_ROOT; };
-    A2000009 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data/quotes.json; sourceTree = SOURCE_ROOT; };
+    A2000001 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/BibleQuotesAppApp.swift"; sourceTree = SOURCE_ROOT; };
+    A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/ContentView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000003 /* AllQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Views/AllQuotesView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000004 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Views/FavoritesView.swift"; sourceTree = SOURCE_ROOT; };
+    A2000005 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Models/Quote.swift"; sourceTree = SOURCE_ROOT; };
+    A2000006 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Services/QuoteService.swift"; sourceTree = SOURCE_ROOT; };
+    A2000007 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Services/FavoritesManager.swift"; sourceTree = SOURCE_ROOT; };
+    A2000008 /* BibleQuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleQuotesApp/Data/BibleQuotesData.swift"; sourceTree = SOURCE_ROOT; };
+    A2000009 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "BibleQuotesApp/Data/quotes.json"; sourceTree = SOURCE_ROOT; };
     A3000003 /* BibleQuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleQuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 /* Begin PBXSourcesBuildPhase section */
@@ -164,7 +164,7 @@
         CURRENT_PROJECT_VERSION = 1;
         DEVELOPMENT_TEAM = "";
         GENERATE_INFOPLIST_FILE = YES;
-        INFOPLIST_FILE = Info.plist;
+        INFOPLIST_FILE = "BibleQuotesApp/Info.plist";
         INFOPLIST_KEY_UIApplicationSceneManifestType = UIApplicationSceneManifestTypeMultipleScene;
         INFOPLIST_KEY_UIMainStoryboardFile = "";
         IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -184,7 +184,7 @@
         CURRENT_PROJECT_VERSION = 1;
         DEVELOPMENT_TEAM = "";
         GENERATE_INFOPLIST_FILE = YES;
-        INFOPLIST_FILE = Info.plist;
+        INFOPLIST_FILE = "BibleQuotesApp/Info.plist";
         INFOPLIST_KEY_UIApplicationSceneManifestType = UIApplicationSceneManifestTypeMultipleScene;
         INFOPLIST_KEY_UIMainStoryboardFile = "";
         IPHONEOS_DEPLOYMENT_TARGET = 14.0;
