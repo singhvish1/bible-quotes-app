@@ -119,7 +119,7 @@ struct CharacterLearnCardView: View {
 				RoundedRectangle(cornerRadius: 12)
 					.fill(isFlipped ? Color.purple.opacity(0.1) : Color.blue.opacity(0.1))
 				
-				VStack(spacing: 16) {
+				VStack(spacing: 12) {
 					HStack {
 						Text(isFlipped ? "Details" : "Character")
 							.font(.caption)
@@ -131,46 +131,80 @@ struct CharacterLearnCardView: View {
 					}
 					.padding()
 					
-					Spacer()
-					
-					if isFlipped {
-						VStack(alignment: .leading, spacing: 12) {
-							VStack(alignment: .leading, spacing: 4) {
+					ScrollView {
+						if isFlipped {
+							VStack(alignment: .leading, spacing: 12) {
 								Text("Period: \(character.period)")
 									.font(.caption)
+									.fontWeight(.semibold)
 									.foregroundColor(.secondary)
-								Text("Notable Incidents:")
-									.font(.caption2)
-									.fontWeight(.bold)
-									.foregroundColor(.secondary)
-								ForEach(character.incidents.prefix(2), id: \.self) { incident in
-									Text("• \(incident)")
+								
+								VStack(alignment: .leading, spacing: 8) {
+									Text("Notable Incidents:")
 										.font(.caption)
-										.lineLimit(2)
-								}
-								if character.incidents.count > 2 {
-									Text("+ \(character.incidents.count - 2) more")
-										.font(.caption)
+										.fontWeight(.bold)
 										.foregroundColor(.secondary)
+									ForEach(character.incidents, id: \.self) { incident in
+										Text("• \(incident)")
+											.font(.caption)
+											.lineLimit(nil)
+									}
+								}
+								
+								VStack(alignment: .leading, spacing: 8) {
+									Text("Key Lessons:")
+										.font(.caption)
+										.fontWeight(.bold)
+										.foregroundColor(.secondary)
+									ForEach(character.lessons, id: \.self) { lesson in
+										Text("• \(lesson)")
+											.font(.caption)
+											.lineLimit(nil)
+									}
+								}
+								
+								if let related = character.relatedCharacters, !related.isEmpty {
+									VStack(alignment: .leading, spacing: 8) {
+										Text("Related Characters:")
+											.font(.caption)
+											.fontWeight(.bold)
+											.foregroundColor(.secondary)
+										ForEach(related, id: \.self) { relatedChar in
+											Text("• \(relatedChar)")
+												.font(.caption)
+										}
+									}
 								}
 							}
+							.padding()
+						} else {
+							VStack(alignment: .center, spacing: 12) {
+								Text(character.name)
+									.font(.title2)
+									.fontWeight(.bold)
+									.multilineTextAlignment(.center)
+								Text(character.description)
+									.font(.body)
+									.multilineTextAlignment(.center)
+									.lineLimit(nil)
+								
+								VStack(alignment: .leading, spacing: 8) {
+									Text("Key Verses:")
+										.font(.caption)
+										.fontWeight(.bold)
+										.foregroundColor(.secondary)
+									ForEach(character.keyVerses, id: \.self) { verse in
+										Text("• \(verse)")
+											.font(.caption2)
+											.lineLimit(nil)
+									}
+								}
+								.frame(maxWidth: .infinity, alignment: .leading)
+								.padding(.top, 8)
+							}
+							.padding()
 						}
-						.padding()
-					} else {
-						VStack(alignment: .center, spacing: 12) {
-							Text(character.name)
-								.font(.title2)
-								.fontWeight(.bold)
-								.multilineTextAlignment(.center)
-							Text(character.description)
-								.font(.body)
-								.multilineTextAlignment(.center)
-								.lineLimit(4)
-						}
-						.padding()
 					}
-					
-					Spacer()
 					
 					Text("Tap to flip")
 						.font(.caption)
@@ -204,122 +238,129 @@ struct CharacterQuizCardView: View {
 	}
 	
 	var body: some View {
-		VStack(spacing: 16) {
+		VStack(spacing: 12) {
 			if quizType == 0 {
 				// Name guessing quiz
-				VStack(spacing: 16) {
+				VStack(spacing: 12) {
 					Text("Who is this biblical figure?")
 						.font(.headline)
 						.foregroundColor(.secondary)
-						.padding()
+						.padding(.horizontal)
 					
-					ZStack {
-						RoundedRectangle(cornerRadius: 12)
-							.fill(Color.purple.opacity(0.1))
-						
-						Text(character.description)
-							.font(.body)
-							.multilineTextAlignment(.center)
-							.padding()
-					}
-					.padding()
-					
-					VStack(spacing: 12) {
-						TextField("Enter the character name", text: $userGuess)
-							.textFieldStyle(RoundedBorderTextFieldStyle())
-							.padding()
-						
-						if !showAnswer {
-							HStack {
-								Button(action: { showHint.toggle() }) {
-									Label("Hint", systemImage: "lightbulb")
-										.frame(maxWidth: .infinity)
-										.padding(8)
-										.background(Color.orange.opacity(0.2))
-										.cornerRadius(8)
-								}
-								
-								Button(action: { showAnswer = true }) {
-									Label("Show", systemImage: "eye")
-										.frame(maxWidth: .infinity)
-										.padding(8)
-										.background(Color.blue.opacity(0.2))
-										.cornerRadius(8)
-								}
-							}
-							.padding()
-						}
-						
-						if showHint && !showAnswer {
-							Text("First letter: \(character.name.prefix(1))")
-								.font(.caption)
-								.foregroundColor(.orange)
+					ScrollView {
+						ZStack {
+							RoundedRectangle(cornerRadius: 12)
+								.fill(Color.purple.opacity(0.1))
+							
+							Text(character.description)
+								.font(.body)
+								.multilineTextAlignment(.center)
+								.lineLimit(nil)
 								.padding()
 						}
-						
-						if showAnswer {
-							VStack(alignment: .leading, spacing: 8) {
-								Text("Correct Answer:")
+					}
+					.frame(maxHeight: 150)
+					.padding(.horizontal)
+					
+					TextField("Enter the character name", text: $userGuess)
+						.textFieldStyle(RoundedBorderTextFieldStyle())
+						.padding(.horizontal)
+					
+					if !showAnswer {
+						HStack(spacing: 8) {
+							Button(action: { showHint.toggle() }) {
+								Label("Hint", systemImage: "lightbulb")
 									.font(.caption)
-									.foregroundColor(.secondary)
-								Text(character.name)
-									.font(.body)
-									.padding()
-									.background(Color.green.opacity(0.1))
+									.frame(maxWidth: .infinity)
+									.padding(8)
+									.background(Color.orange.opacity(0.2))
 									.cornerRadius(8)
 							}
-							.padding()
-						}
-					}
-				}
-			} else {
-				// Incident matching quiz
-				VStack(spacing: 16) {
-					Text("Which character is this incident about?")
-						.font(.headline)
-						.foregroundColor(.secondary)
-						.padding()
-					
-					ZStack {
-						RoundedRectangle(cornerRadius: 12)
-							.fill(Color.blue.opacity(0.1))
-						
-						Text(character.incidents.randomElement() ?? "Unknown incident")
-							.font(.body)
-							.multilineTextAlignment(.center)
-							.padding()
-					}
-					.padding()
-					
-					VStack(spacing: 12) {
-						TextField("Enter the character name", text: $userGuess)
-							.textFieldStyle(RoundedBorderTextFieldStyle())
-							.padding()
-						
-						if !showAnswer {
+							
 							Button(action: { showAnswer = true }) {
-								Label("Show Answer", systemImage: "eye")
+								Label("Show", systemImage: "eye")
+									.font(.caption)
 									.frame(maxWidth: .infinity)
 									.padding(8)
 									.background(Color.blue.opacity(0.2))
 									.cornerRadius(8)
 							}
-							.padding()
 						}
-						
-						if showAnswer {
-							VStack(alignment: .leading, spacing: 8) {
-								Text("Correct Answer:")
-									.font(.caption)
-									.foregroundColor(.secondary)
-								Text(character.name)
-									.font(.body)
-									.padding()
-									.background(Color.green.opacity(0.1))
-									.cornerRadius(8)
-							}
+						.padding(.horizontal)
+					}
+					
+					if showHint && !showAnswer {
+						Text("First letter: \(character.name.prefix(1))")
+							.font(.caption)
+							.foregroundColor(.orange)
 							.padding()
+					}
+					
+					if showAnswer {
+						VStack(alignment: .leading, spacing: 8) {
+							Text("Correct Answer:")
+								.font(.caption)
+								.foregroundColor(.secondary)
+							Text(character.name)
+								.font(.body)
+								.padding()
+								.background(Color.green.opacity(0.1))
+								.cornerRadius(8)
 						}
+						.padding(.horizontal)
+					}
+				}
+			} else {
+				// Incident matching quiz
+				VStack(spacing: 12) {
+					Text("Which character is this incident about?")
+						.font(.headline)
+						.foregroundColor(.secondary)
+						.padding(.horizontal)
+					
+					ScrollView {
+						ZStack {
+							RoundedRectangle(cornerRadius: 12)
+								.fill(Color.blue.opacity(0.1))
+							
+							Text(character.incidents.randomElement() ?? "Unknown incident")
+								.font(.body)
+								.multilineTextAlignment(.center)
+								.lineLimit(nil)
+								.padding()
+						}
+					}
+					.frame(maxHeight: 150)
+					.padding(.horizontal)
+					
+					TextField("Enter the character name", text: $userGuess)
+						.textFieldStyle(RoundedBorderTextFieldStyle())
+						.padding(.horizontal)
+					
+					if !showAnswer {
+						Button(action: { showAnswer = true }) {
+							Label("Show Answer", systemImage: "eye")
+								.font(.caption)
+								.frame(maxWidth: .infinity)
+								.padding(8)
+								.background(Color.blue.opacity(0.2))
+								.cornerRadius(8)
+						}
+						.padding(.horizontal)
+					}
+					
+					if showAnswer {
+						VStack(alignment: .leading, spacing: 8) {
+							Text("Correct Answer:")
+								.font(.caption)
+								.foregroundColor(.secondary)
+							Text(character.name)
+								.font(.body)
+								.padding()
+								.background(Color.green.opacity(0.1))
+								.cornerRadius(8)
+						}
+						.padding(.horizontal)
 					}
 				}
 			}
