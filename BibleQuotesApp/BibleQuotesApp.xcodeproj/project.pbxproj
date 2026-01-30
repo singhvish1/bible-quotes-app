@@ -1,0 +1,174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111111111111111111111111 /* BibleQuotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222222 /* BibleQuotesAppApp.swift */; };
+		111111111111111111111112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222223 /* ContentView.swift */; };
+		111111111111111111111113 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222224 /* AllQuotesView.swift */; };
+		111111111111111111111114 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222225 /* FavoritesView.swift */; };
+		111111111111111111111115 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222226 /* Quote.swift */; };
+		111111111111111111111116 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222227 /* QuoteService.swift */; };
+		111111111111111111111117 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222228 /* FavoritesManager.swift */; };
+		111111111111111111111118 /* BibleQuotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222229 /* BibleQuotesData.swift */; };
+		111111111111111111111119 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222230 /* quotes.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222222222222222222222222 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BibleQuotesAppApp.swift; path = BibleQuotesAppApp.swift; sourceTree = "<group>"; };
+		222222222222222222222223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		222222222222222222222224 /* AllQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllQuotesView.swift; path = Views/AllQuotesView.swift; sourceTree = "<group>"; };
+		222222222222222222222225 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesView.swift; path = Views/FavoritesView.swift; sourceTree = "<group>"; };
+		222222222222222222222226 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Quote.swift; path = Models/Quote.swift; sourceTree = "<group>"; };
+		222222222222222222222227 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuoteService.swift; path = Services/QuoteService.swift; sourceTree = "<group>"; };
+		222222222222222222222228 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesManager.swift; path = Services/FavoritesManager.swift; sourceTree = "<group>"; };
+		222222222222222222222229 /* BibleQuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BibleQuotesData.swift; path = Data/BibleQuotesData.swift; sourceTree = "<group>"; };
+		222222222222222222222230 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = quotes.json; path = Data/quotes.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333333333333333333333333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111111111111111111111111,
+				111111111111111111111112,
+				111111111111111111111113,
+				111111111111111111111114,
+				111111111111111111111115,
+				111111111111111111111116,
+				111111111111111111111117,
+				111111111111111111111118,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		444444444444444444444444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111111111111111111111119,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXGroup section */
+		555555555555555555555555 = {
+			isa = PBXGroup;
+			children = (
+				666666666666666666666666, /* BibleQuotesApp */
+			);
+			sourceTree = "<group>";
+		};
+		666666666666666666666666 = {
+			isa = PBXGroup;
+			children = (
+				222222222222222222222222,
+				222222222222222222222223,
+				777777777777777777777777, /* Views */
+				888888888888888888888888, /* Models */
+				999999999999999999999999, /* Services */
+				101010101010101010101010, /* Data */
+			);
+			path = "BibleQuotesApp";
+			sourceTree = "<group>";
+		};
+		777777777777777777777777 = {
+			isa = PBXGroup;
+			children = (
+				222222222222222222222224,
+				222222222222222222222225,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		888888888888888888888888 = {
+			isa = PBXGroup;
+			children = (
+				222222222222222222222226,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		999999999999999999999999 = {
+			isa = PBXGroup;
+			children = (
+				222222222222222222222227,
+				222222222222222222222228,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		101010101010101010101010 = {
+			isa = PBXGroup;
+			children = (
+				222222222222222222222229,
+				222222222222222222222230,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		121212121212121212121212 /* BibleQuotesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131313131313131313131313 /* Build configuration list for PBXNativeTarget "BibleQuotesApp" */;
+			buildPhases = (
+				333333333333333333333333,
+				444444444444444444444444,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BibleQuotesApp;
+			productName = BibleQuotesApp;
+			productReference = 141414141414141414141414 /* BibleQuotesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		151515151515151515151515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1440;
+			};
+			buildConfigurationList = 161616161616161616161616 /* Build configuration list for PBXProject "BibleQuotesApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en,);
+			mainGroup = 555555555555555555555555;
+			productRefGroup = 171717171717171717171717;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				121212121212121212121212,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		181818181818181818181818 /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = "com.example.BibleQuotesApp"; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = "BibleQuotesApp/Info.plist"; SWIFT_VERSION = "5.0"; }; name = Debug; };
+		191919191919191919191919 /* Release */ = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = "com.example.BibleQuotesApp"; INFOPLIST_FILE = "BibleQuotesApp/Info.plist"; SWIFT_VERSION = "5.0"; }; name = Release; };
+		131313131313131313131313 /* Build configuration list for PBXNativeTarget "BibleQuotesApp" */ = { isa = XCConfigurationList; buildConfigurations = (181818181818181818181818, 191919191919191919191919); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		161616161616161616161616 /* Build configuration list for PBXProject "BibleQuotesApp" */ = { isa = XCConfigurationList; buildConfigurations = (181818181818181818181818, 191919191919191919191919); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin PBXFileReference for product group */
+		141414141414141414141414 /* BibleQuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BibleQuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		171717171717171717171717 = {isa = PBXGroup; children = (141414141414141414141414,); name = Products; sourceTree = "<group>"; };
+/* End PBXFileReference for product group */
+
+	};
+	rootObject = 151515151515151515151515 /* Project object */;
+}
+
