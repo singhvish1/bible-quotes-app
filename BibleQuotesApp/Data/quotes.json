@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.",
+    "reference": "Philippians 4:6-7",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": "6-7",
+    "categories": ["peace", "comfort"],
+    "moods": ["anxious", "seekingPeace", "overwhelmed"]
+  },
+  {
+    "id": 2,
+    "text": "Cast all your anxiety on him because he cares for you.",
+    "reference": "1 Peter 5:7",
+    "book": "1 Peter",
+    "chapter": 5,
+    "verse": "7",
+    "categories": ["comfort", "peace"],
+    "moods": ["anxious", "overwhelmed", "seekingPeace"]
+  },
+  {
+    "id": 3,
+    "text": "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.",
+    "reference": "John 14:27",
+    "book": "John",
+    "chapter": 14,
+    "verse": "27",
+    "categories": ["peace", "comfort"],
+    "moods": ["anxious", "fearful", "seekingPeace"]
+  },
+  {
+    "id": 4,
+    "text": "When anxiety was great within me, your consolation brought me joy.",
+    "reference": "Psalm 94:19",
+    "book": "Psalm",
+    "chapter": 94,
+    "verse": "19",
+    "categories": ["comfort", "joy", "peace"],
+    "moods": ["anxious", "overwhelmed"]
+  },
+  {
+    "id": 5,
+    "text": "For God has not given us a spirit of fear, but of power and of love and of a sound mind.",
+    "reference": "2 Timothy 1:7",
+    "book": "2 Timothy",
+    "chapter": 1,
+    "verse": "7",
+    "categories": ["courage", "strength"],
+    "moods": ["fearful", "needingStrength", "doubtful"]
+  },
+  {
+    "id": 6,
+    "text": "The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid?",
+    "reference": "Psalm 27:1",
+    "book": "Psalm",
+    "chapter": 27,
+    "verse": "1",
+    "categories": ["courage", "strength", "protection"],
+    "moods": ["fearful", "needingStrength"]
+  },
+  {
+    "id": 7,
+    "text": "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
+    "reference": "Isaiah 41:10",
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": "10",
+    "categories": ["courage", "strength", "comfort"],
+    "moods": ["fearful", "anxious", "needingStrength"]
+  },
+  {
+    "id": 8,
+    "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+    "reference": "Joshua 1:9",
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": "9",
+    "categories": ["courage", "strength"],
+    "moods": ["fearful", "needingStrength", "overwhelmed"]
+  },
+  {
+    "id": 9,
+    "text": "I can do all this through him who gives me strength.",
+    "reference": "Philippians 4:13",
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": "13",
+    "categories": ["strength", "perseverance"],
+    "moods": ["needingStrength", "overwhelmed"]
+  },
+  {
+    "id": 10,
+    "text": "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint.",
+    "reference": "Isaiah 40:31",
+    "book": "Isaiah",
+    "chapter": 40,
+    "verse": "31",
+    "categories": ["strength", "hope", "perseverance"],
+    "moods": ["needingStrength", "hopeful", "overwhelmed"]
+  },
+  {
+    "id": 11,
+    "text": "The Lord is my strength and my shield; my heart trusts in him, and he helps me. My heart leaps for joy, and with my song I praise him.",
+    "reference": "Psalm 28:7",
+    "book": "Psalm",
+    "chapter": 28,
+    "verse": "7",
+    "categories": ["strength", "joy", "faith"],
+    "moods": ["needingStrength", "joyful", "grateful"]
+  },
+  {
+    "id": 12,
+    "text": "The Lord is close to the brokenhearted and saves those who are crushed in spirit.",
+    "reference": "Psalm 34:18",
+    "book": "Psalm",
+    "chapter": 34,
+    "verse": "18",
+    "categories": ["comfort", "hope"],
+    "moods": ["sad", "lonely", "overwhelmed"]
+  },
+  {
+    "id": 13,
+    "text": "He heals the brokenhearted and binds up their wounds.",
+    "reference": "Psalm 147:3",
+    "book": "Psalm",
+    "chapter": 147,
+    "verse": "3",
+    "categories": ["comfort", "hope"],
+    "moods": ["sad", "lonely"]
+  },
+  {
+    "id": 14,
+    "text": "Weeping may stay for the night, but rejoicing comes in the morning.",
+    "reference": "Psalm 30:5",
+    "book": "Psalm",
+    "chapter": 30,
+    "verse": "5",
+    "categories": ["hope", "comfort"],
+    "moods": ["sad", "hopeful"]
+  },
+  {
+    "id": 15,
+    "text": "Come to me, all you who are weary and burdened, and I will give you rest.",
+    "reference": "Matthew 11:28",
+    "book": "Matthew",
+    "chapter": 11,
+    "verse": "28",
+    "categories": ["comfort", "peace"],
+    "moods": ["sad", "overwhelmed", "seekingPeace"]
+  },
+  {
+    "id": 16,
+    "text": "Blessed are those who mourn, for they will be comforted.",
+    "reference": "Matthew 5:4",
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": "4",
+    "categories": ["comfort", "hope"],
+    "moods": ["sad"]
+  },
+  {
+    "id": 17,
+    "text": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+    "reference": "Jeremiah 29:11",
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": "11",
+    "categories": ["hope", "faith"],
+    "moods": ["hopeful", "seekingGuidance", "doubtful"]
+  },
+  {
+    "id": 18,
+    "text": "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.",
+    "reference": "Romans 15:13",
+    "book": "Romans",
+    "chapter": 15,
+    "verse": "13",
+    "categories": ["hope", "joy", "peace"],
+    "moods": ["hopeful", "joyful", "seekingPeace"]
+  },
+  {
+    "id": 19,
+    "text": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+    "reference": "Hebrews 11:1",
+    "book": "Hebrews",
+    "chapter": 11,
+    "verse": "1",
+    "categories": ["faith", "hope"],
+    "moods": ["hopeful", "doubtful"]
+  },
+  {
+    "id": 20,
+    "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+    "reference": "Romans 8:28",
+    "book": "Romans",
+    "chapter": 8,
+    "verse": "28",
+    "categories": ["hope", "faith"],
+    "moods": ["hopeful", "doubtful", "overwhelmed"]
+  }
+]
