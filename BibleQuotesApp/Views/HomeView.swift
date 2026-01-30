@@ -1,21 +1,45 @@
 import SwiftUI
 
+enum BookSortOption {
+	case alphabetical
+	case quoteCount
+}
+
 struct HomeView: View {
 	let quotes = QuoteService.shared.quotes
 	@EnvironmentObject var favorites: FavoritesManager
 	@State private var expandedBooks = Set<String>()
+	@State private var sortOption: BookSortOption = .alphabetical
 
 	var quotesByBook: [String: [Quote]] {
 		let grouped = Dictionary(grouping: quotes) { $0.book ?? "Unknown" }
-		return grouped.sorted { $0.key < $1.key }
-			.reduce(into: [String: [Quote]]()) { result, group in
-				result[group.key] = group.value.sorted { $0.id < $1.id }
+		return grouped.reduce(into: [String: [Quote]]()) { result, group in
+			result[group.key] = group.value.sorted { $0.id < $1.id }
+		}
+	}
+
+	var sortedBooks: [String] {
+		switch sortOption {
+		case .alphabetical:
+			return quotesByBook.keys.sorted()
+		case .quoteCount:
+			return quotesByBook.keys.sorted { 
+				(quotesByBook[$0]?.count ?? 0) > (quotesByBook[$1]?.count ?? 0)
 			}
+		}
 	}
 
 	var body: some View {
 		List {
-			ForEach(quotesByBook.keys.sorted(), id: \.self) { book in
+			Section(header: Text("Sort by").font(.headline)) {
+				Picker("Sort Books", selection: $sortOption) {
+					Text("Alphabetically").tag(BookSortOption.alphabetical)
+					Text("Quote Count").tag(BookSortOption.quoteCount)
+				}
+				.pickerStyle(.segmented)
+			}
+
+			ForEach(sortedBooks, id: \.self) { book in
 				DisclosureGroup(
 					isExpanded: Binding(
 						get: { expandedBooks.contains(book) },
@@ -91,4 +115,5 @@ struct HomeView_Previews: PreviewProvider {
 		NavigationView { HomeView().environmentObject(FavoritesManager()) }
 	}
 }
+
 
