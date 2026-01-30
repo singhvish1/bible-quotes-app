@@ -1,174 +1,363 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {};
-	objectVersion = 55;
-	objects = {
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects = {
 
 /* Begin PBXBuildFile section */
-		111111111111111111111111 /* BibleQuotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222222 /* BibleQuotesAppApp.swift */; };
-		111111111111111111111112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222223 /* ContentView.swift */; };
-		111111111111111111111113 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222224 /* AllQuotesView.swift */; };
-		111111111111111111111114 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222225 /* FavoritesView.swift */; };
-		111111111111111111111115 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222226 /* Quote.swift */; };
-		111111111111111111111116 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222227 /* QuoteService.swift */; };
-		111111111111111111111117 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222228 /* FavoritesManager.swift */; };
-		111111111111111111111118 /* BibleQuotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222229 /* BibleQuotesData.swift */; };
-		111111111111111111111119 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222230 /* quotes.json */; };
-/* End PBXBuildFile section */
+    A1000001 /* BibleQuotesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* BibleQuotesAppApp.swift */; };
+    A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
+    A1000003 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* AllQuotesView.swift */; };
+    A1000004 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* FavoritesView.swift */; };
+    A1000005 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* Quote.swift */; };
+    A1000006 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* QuoteService.swift */; };
+    A1000007 /* FavoritesManager.swift in Sources */ = {isa =// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects = {
 
-/* Begin PBXFileReference section */
-		222222222222222222222222 /* BibleQuotesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BibleQuotesAppApp.swift; path = BibleQuotesAppApp.swift; sourceTree = "<group>"; };
-		222222222222222222222223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		222222222222222222222224 /* AllQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AllQuotesView.swift; path = Views/AllQuotesView.swift; sourceTree = "<group>"; };
-		222222222222222222222225 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesView.swift; path = Views/FavoritesView.swift; sourceTree = "<group>"; };
-		222222222222222222222226 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Quote.swift; path = Models/Quote.swift; sourceTree = "<group>"; };
-		222222222222222222222227 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuoteService.swift; path = Services/QuoteService.swift; sourceTree = "<group>"; };
-		222222222222222222222228 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesManager.swift; path = Services/FavoritesManager.swift; sourceTree = "<group>"; };
-		222222222222222222222229 /* BibleQuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BibleQuotesData.swift; path = Data/BibleQuotesData.swift; sourceTree = "<group>"; };
-		222222222222222222222230 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = quotes.json; path = Data/quotes.json; sourceTree = "<group>"; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile sectio= {
+  archiveVildF  classes = {};
+  ob00  objectVersioes  objects = {
 
-/* Begin PBXSourcesBuildPhase section */
-		333333333333333333333333 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				111111111111111111111111,
-				111111111111111111111112,
-				111111111111111111111113,
-				111111111111111111111114,
-				111111111111111111111115,
-				111111111111111111111116,
-				111111111111111111111117,
-				111111111111111111111118,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
+/* Be  
+/* Begin PBquo    A1000001 /* BibleQuotesAppA =    A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
+    A10000 A    A1000003 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* AllQuotesView.swift *uo    A1000004 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* FavoritesView.swift */; }a     A1000005 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* Quote.swift */; };
+    A1000006 / =    A1000006 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* QuoteServiou    A1000007 /* FavoritesManager.swift in Sources */ = {isa =// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  o /{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects =ourc  classes = {};
+  obFa  objectVersioif  objects = {
 
-/* Begin PBXResourcesBuildPhase section */
-		444444444444444444444444 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				111111111111111111111119,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
+/* Beri
+/* Begin PBt;   archiveVildF  classes = {};
+    ob00  objectVersioes  obje= 
+/* Be  
+/* Begin PBquo    A100000FileType =     A10000 A    A1000003 /* AllQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* AllQuotesView.swift * */ = {isa = PBXFileReference; lastKn    A1000006 / =    A1000006 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* QuoteServiou    A1000007 /* FavoritesManager.swift in Sources */ = {isa =// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  o /{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects =ourc  classes = {};
+  obFa  objectVersioies{
+  archiveVersion = 1;
+  classes = {};
+  o /{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects =ourc  classes = {};
+  obFa  objectVersioif  objects = {
 
-/* Begin PBXGroup section */
-		555555555555555555555555 = {
-			isa = PBXGroup;
-			children = (
-				666666666666666666666666, /* BibleQuotesApp */
-			);
-			sourceTree = "<group>";
-		};
-		666666666666666666666666 = {
-			isa = PBXGroup;
-			children = (
-				222222222222222222222222,
-				222222222222222222222223,
-				777777777777777777777777, /* Views */
-				888888888888888888888888, /* Models */
-				999999999999999999999999, /* Services */
-				101010101010101010101010, /* Data */
-			);
-			path = "BibleQuotesApp";
-			sourceTree = "<group>";
-		};
-		777777777777777777777777 = {
-			isa = PBXGroup;
-			children = (
-				222222222222222222222224,
-				222222222222222222222225,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		888888888888888888888888 = {
-			isa = PBXGroup;
-			children = (
-				222222222222222222222226,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		999999999999999999999999 = {
-			isa = PBXGroup;
-			children = (
-				222222222222222222222227,
-				222222222222222222222228,
-			);
-			name = Services;
-			sourceTree = "<group>";
-		};
-		101010101010101010101010 = {
-			isa = PBXGroup;
-			children = (
-				222222222222222222222229,
-				222222222222222222222230,
-			);
-			name = Data;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
+/* Beri
+/* Begin PBt.jso  classes = {};
+  o eR  o /{
+  archiKn  arcle  classes = {};
+  oame  objectVersio;   objects =ourc  claso  obFa  objectVersioif  objec};
+/* Beri
+/* Begin PBt;   archiveVpp */* Begsa    ob00  objectVersioes  obje= 
+/* Be  
+/ap/* Be  
+/* Begin PBquo    A1000 =/* Begth{
+  archiveVersion = 1;
+  classes = {};
+  o /{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects =ourc  classes = {};
+  obFa  objectVersioies{
+  archiveVersion = 1;
+  classes = {};
+  o /{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects =ourc  classes = {};
+  obFa  objectVersioif  objects = {
 
-/* Begin PBXNativeTarget section */
-		121212121212121212121212 /* BibleQuotesApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 131313131313131313131313 /* Build configuration list for PBXNativeTarget "BibleQuotesApp" */;
-			buildPhases = (
-				333333333333333333333333,
-				444444444444444444444444,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BibleQuotesApp;
-			productName = BibleQuotesApp;
-			productReference = 141414141414141414141414 /* BibleQuotesApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		151515151515151515151515 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 1440;
-			};
-			buildConfigurationList = 161616161616161616161616 /* Build configuration list for PBXProject "BibleQuotesApp" */;
-			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (en,);
-			mainGroup = 555555555555555555555555;
-			productRefGroup = 171717171717171717171717;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				121212121212121212121212,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin XCBuildConfiguration section */
-		181818181818181818181818 /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = "com.example.BibleQuotesApp"; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = "BibleQuotesApp/Info.plist"; SWIFT_VERSION = "5.0"; }; name = Debug; };
-		191919191919191919191919 /* Release */ = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = "com.example.BibleQuotesApp"; INFOPLIST_FILE = "BibleQuotesApp/Info.plist"; SWIFT_VERSION = "5.0"; }; name = Release; };
-		131313131313131313131313 /* Build configuration list for PBXNativeTarget "BibleQuotesApp" */ = { isa = XCConfigurationList; buildConfigurations = (181818181818181818181818, 191919191919191919191919); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		161616161616161616161616 /* Build configuration list for PBXProject "BibleQuotesApp" */ = { isa = XCConfigurationList; buildConfigurations = (181818181818181818181818, 191919191919191919191919); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-/* End XCBuildConfiguration section */
-
-/* Begin PBXFileReference for product group */
-		141414141414141414141414 /* BibleQuotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BibleQuotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		171717171717171717171717 = {isa = PBXGroup; children = (141414141414141414141414,); name = Products; sourceTree = "<group>"; };
-/* End PBXFileReference for product group */
-
-	};
-	rootObject = 151515151515151515151515 /* Project object */;
+/* Beri
+/* Begin PBt.jso  classes = {};
+  o eR  o /{
+  archi
+     classes = {};
+  o or  o /{
+  archipr  arcin  cl0;
+    };
+/* End P  objectVersioPh  objects =ourc  claegin PBXResourcesBuildPhase secti  archiveVersion = 1;
+ es  classes = {};
+  o is  o /{
+  archies  arcPh  classes  buildActionMask = 214748364  objects =ourc  cla       A1000009,
+      );
+      r
+/* Beri
+/* Begin PBt.jso  classes= 0/* Beg};  o eR  o /{
+  archiKn  arcle  s  archiKn  /*  oame  objectVersio;   object A/* Beri
+/* Begin PBt;   archiveVpp */   children = (
+        A4000002,
+     /* Beg00/* Be  
+/ap/* Be  
+/* Begin PBquo    A1000 =    };
+    A4000002 = {
+      isa/* Begin up  archiveVersion = 1;
+  classes =00  classes = {};
+  02,
+  o /{
+  a000003  arc    classes = {};
+  ob A  objectV         objects =ourc  cla    obFa  objectVersioies{
+  a     archiveVersion = 1;
+ ;
+  classes = {};
+  o OU  o /{
+  archi};  arcA4  classes = {    isa =  objectVersio    hildren = (
+          obFa  objectVersioif  objec  
+/* Beri
+/* Begin PBt.jso  classesurc/Tree =   o eR  o /{
+  archi
+   000004 =  archi
+   a   PBXGro  o or  o /{
+  arn   archipr   A    };
+/* End P  obje   name = es  classes = {};
+  o is  o /{
+  archies  arcPh  classes  buildActionMask = 214748364  objects =en  o is  o /{
+  ar00  archies   A      );
+      r
+/* Beri
+/* Begin PBt.jso  classes= 0/* Beg};  o eR  o /{
+  archiKn  arcl6       r  /* Ber P/* Begp;  archiKn  arcle  s  archiKn  /*  oame  objectV20/* Begin PBt;   archiveVpp */   children = (
+        A4000002,
+     /*;
+        A4000002,
+     /* Beg00/* Be  
+/ap/       /* Beg00/*   /ap/* Be  
+/* Begin);/* Begin me    A4000002 = {
+      isa/* B=       isa/* Beg};  classes =00  classes = {};
+  02,
+  o /XN  02,
+  o /{
+  a000003  arcA5  o 02  a00ib  ob A  objectV         object P  a     archiveVersion = 1;
+ ;
+  classes = {};
+  o OU  o /{
+  archidP ;
+  classes = {};
+  o OU ,
+     o OU  o /{
+ 
+      );
+               obFa  objectVersioif  objec  
+/* Beri
+/* Begin PBt.jso  sA/* Beri
+/* Begin PBt.jso  classesurc/T;
+/* Begpr  archi
+   000004 =  archi
+   a   PBXGro  o or "com.apple   a   PBXGro  o li  arn   archipr   A    }BX/* End P  obje   name = 
+/  o is  o /{
+  archies  arcPh  classes  04  archies   o  ar00  archies   A      );
+      r
+/* Beri
+/* Begin PBt.jso  classes= 0/* Beghe      r
+/* Beri
+/* Begin PbuildConfi/* Begon  archiKn  arcl6       r  /* Ber P/* Begp;  arcXc        A4000002,
+     /*;
+        A4000002,
+     /* Beg00/* Be  
+/ap/       /* Beg00/*   /ap/* Be  
+/* Begin);/* Begin me    A4000002       /*;
+        =       01     /* Beg00/* ir/ap/       /* Beg00oj/* Begin);/* Begin me    A4000002        isa/* B=       isa/* Beg};  End   02,
+  o /XN  02,
+  o /{
+  a000003  arcA5  o 02  a00ib  obn   o    A5000006 /*   a00 * ;
+  classes = {};
+  o OU  o /{
+  archidP ;
+  classes = {};
+  o OU ,
+     o OU  o /{
+ 
+ = Au  o OU  o /{
+     archidP ;OJ  classes N   o OU ,
+     EVELOPMENT_ 
+      );
+        GENERATE/* Beri
+/* Begin PBt.jso  sA/* Beri
+/* BegiLE = Bible/* Begin PBt.jso  classe    /* Begpr  archi
+   000004 =  ace   000004 =  a =   a   PBXGro  o ne/  o is  o /{
+  archies  arcPh  classes  04  archies   o  ar00  archies   A      );
+      r
+/* BerYM  archies  a 1      r
+/* Beri
+/* Begin PBt.jso  classes= 0/* Beghe      r
+/* Beri
+h//* Beror/* Beg  /* Beri
+/* Begin PbuildConfi/* Begon  archUCT_BUNDLE     /*;
+        A4000002,
+     /* Beg00/* Be  
+/ap/       /* Beg00/*   /ap/* Be  
+/* Begin);SWIFT_VERSI     /* Beg00/*   /ap/       /* Beg0MIL/* Begin);/* Begin me    A4000002De        =       01     /* Beg00/* ir/ap/  
+   o /XN  02,
+  o /{
+  a000003  arcA5  o 02  a00ib  obn   o    A5000006 /*   a00 * ;
+  classes = {};
+  o OU  o /{
+  archidP ;
+  classes     DEVELOPMEN  a00M   classes = {};
+  o OU  o /{
+  archidP ;
+  classes = {};
+  o O_F  o OU  o /{
+ te  archidP ;li  classes     o OU ,
+     UI     o ti 
+ = Au  o OU tTyp    UIApplicationS     EVELOPMENT_ 
+      );
+                );
+       UI       ry/* Begin PBt.jso  sA/*  /* BegiLE = Bible/* Begin  =   000004 =  ace   000004 =  a =   a   PBXGro  o ne/  o is cu  archies  arcPh  classes  04  archies   o  ar00  archies   A          r
+/* BerYM  archies  a 1      r
+/* Beri
+/* Begin PBt.jso  clasODUCT_NAME/* Beri
+/* Begin PBt.jso  c  S/*FT_VER/* Beri
+h//* Beror/* Beg  /* Beri
+/* Begin =h//* B;
+/* Begin PbuildConfi/* Ble        A4000002,
+     /* Beg00/* Be  
+/ap/       /=      /* Beg00/* ti/ap/       /* Beg00in/* Begin);SWIFT_VERSI     /* Beg0_P   o /XN  02,
+  o /{
+  a000003  arcA5  o 02  a00ib  obn   o    A5000006 /*   a00 * ;
+  classeION = YES_AGGRESSIVE;
+        CLANG_CXX_LANGU  o /{
+  a00= "c++17"  classes = {};
+  o OU  o /{
+  archidP ;
+  classes     DEVELOPOD  o OU  o /{
+     archidP ;NA  classes RC  o OU  o /{
+  archidP ;
+  classes = {};
+  o RELEASING = YES  classes CL  o O_F  o OU CO te  archidP ;li         UI     o ti 
+ = Au  o OU tTyp  C = Au  o OU tTypNT      );
+                );
+       UI       ry/* BBJC_IMPLEME       UI     ;
+   /* BerYM  archies  a 1      r
+/* Beri
+/* Begin PBt.jso  clasODUCT_NAME/* Beri
+/* Begin PBt.jso  c  S/*FT_VER/* Beri
+h//* Beror/* Beg  /* Beri
+/* Begin =h//* B;
+/* Begin PbuildConfi/* Ble        A4000002NI/* Beri
+/* Begin PBt.jso  clCL/* BegRN/* Begin PBt.jso  c  S/*FT_VER/* Beri
+ARh//* Beror/* Beg  /* Beri
+/* Begin =
+ /* Begin =h//* B;
+/* BegMP/* Begin PbuildCF      /* Beg00/* Be  
+/ap/       /=      /*VE/ap/       /=          o /{
+  a000003  arcA5  o 02  a00ib  obn   o    A5000006 /*   a00 * ;
+  classeION = YES_AGGRESSIVE;
+          classeION = YES_AGGRESSIVE;
+        CLANG_CXX_LANGU  o /{
+  T_        CLANG_CXX_LANGU  o /AN  a00= "c++17"  classes = {};
+  o OU  o /{
+  archidP ;
+IOUS_  archidP ;;
+        CLAN     archidP ;NA  classes RC  o OU    archidP ;
+  classes = {};
+  o RELEASI YES;
+          o RELEASISTRIP = Au  o OU tTyp  C = Au  o OU tTypNT      );
+                );
+       UI       ry =                );
+       UI       ry/* BBJC         UI       rLE   /* BerYM  archies  a 1      r
+/* Beri
+/* Beg  /* Beri
+/* Begin PBt.js = YES;
+  /* BegGC/* Begin PBt.jso  c  S/*FT_VER/* Beri
+PRh//* Beror/* Beg  /* Beri
+/* Begin =in/* Begin =h//* B;
+/* BegAR/* Begin PbuildCON/* Begin PBt.jso  clCL/* BegRN/* Begin PBt.jso  c = ARh//* Beror/* Beg  /* Beri
+/* Begin =
+ /* Begin =h//* B;
+/* BegMP_W/* Begin =
+ /* Begin =h//*YE /* BeginIV/* BegMP/* BegiWARN/ap/       /=      /*V;
+        GCC_WARN_UNUSED  a000003  arcA5  o 02  a00ib  obLE_DEBUG_INFO = IN  classeION = YES_AGGRESSIVE;
+          classeION = YES_AGGRES_A          classeION = YES_AG i        CLANG_CXX_LANGU  o /{
+  T_  AT  T_        CLA= DEBUG;
+        o OU  o /{
+  archidP ;
+IOUS_  archidP ;;
+        CLAN     areb  archidP ;  IOUS_  arc /        CLAN    
+   classes = {};
+  o RELEASI YES;
+          o RELEASISTRIP     o RELEASI YEAR          o REL N                );
+       UI       ry =                );
+       UI ER       UI       rN        UI       ry/* BBJC         UI AN/* Beri
+/* Beg  /* Beri
+/* Begin PBt.js = YES;
+  /* BegGC/* Begin PBt.jso  c EN/* BegOD/* Begin PBt.j    /* BegGC/* Begin PB_APRh//* Beror/* Beg  /* Beri
+/* Begin =in/* BeTOR/* Begin =in/* Begin =h//*AN/* BegAR/* Begin PbuildCONES;
+/* Begin =
+ /* Begin =h//* B;
+/* BegMP_W/* Begin =
+ /* Begin =h//*YE /* BeginIV/* BegMP/* BegiWARN/ap/  TE /* BeginPL/* BegMP_W/* Begi;
+ /* Begin =h//*YRN_DI      BJC_ISA_USAGE = YES_ERROR;
+        CLANG_WARN_DOCUMENTATION_COMME          classeION = YES_AGGRES_A          classeION = YES_AG i        CLANG_CXX_LANGU  o /{
+  T_  ATG_  T_  AT  T_        CLA= DEBUG;
+        o OU  o /{
+  archidP ;
+IOUS_  archidP ;;
+        CLAON        o OU  o /{
+  archidP S;
+  archidP ;
+IOUS_N_IOUS_  arcCI        CLANF = YE   classes = {};
+  o RELEASI YES;
+          o RELEASISTRIP   CL  o RELEASI YESOO          o RELRR       UI       ry =                );
+       UI ER       UI       rN        G_       UI ER       UI       rN         /* Beg  /* Beri
+/* Begin PBt.js = YES;
+  /* BegGC/* Begin PBt.jso  c EN/* BeS;/* Begin PBt.j_W  /* BegGC/* Begin PB= /* Begin =in/* BeTOR/* Begin =in/* Begin =h//*AN/* BegAR/* Begin PbuildCONES;
+/* Begin =
+ /* Begin =h//*  C/* Begin =
+ /*P = NO;
+        DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+   /* BeginBL/* BegMP_W/* Begi N /* Begin =h//*YE /TR /* Begin =h//*YRN_DI      BJC_ISA_USAGE = YES_ERROR;
+        CLANG_WARN_DOCUMENTATLO        CLANG_WARN_DOCUMENTATION_COMME          clas    T_  ATG_  T_  AT  T_        CLA= DEBUG;
+        o OU  o /{
+  archidP ;
+IOUS_  archidP ;;
+        CLAON        o OU  o /{
+  archi Y        o OU  o /{
+  archidP ;
+IOUS_  ar =  archidP ;
+IOUS_  IOUS_  arcWA        CLAON   ON  archidP S;
+  archidP ;
+IOUS_D_  archidP ;YEIOUS_N_IOU M  o RELEASI YES;
+          o RELEASISTRIP   CL  o REES;
+        SDKROOT       UI ER       UI       rN        G_       UI ER       UI       rN         /* Beg  /* Beri
+/* Be  /* Begin PBt.js = YES; = YES;
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration  /* BegGC/* Begin PB X/* Begin =
+ /* Begin =h//*  C/* Begin =
+ /*P = NO;
+        DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+   /* BeginBL/* BegMP_W/* Begi N /* Begin =h//*YEbu /* Beginur /*P = NO;
+        DEBUG_IN,
+        A50   /* BeginBL/* BegMP_W/* Begi N /* Begin =h//*YE /T=         CLANG_WARN_DOCUMENTATLO        CLANG_WARN_DOCUMENTATION_COMME          clas    T_  ATG_  T_  AT  ct        o OU  o /{
+  archidP ;
+IOUS_  archidP ;;
+        CLAON        o OU  o /{
+  archi Y        o OU  o /{
+  archidP ;
+IOUS    archidP ;
+IOUS_ltConfiguratio        CLAON       archi Y        o OU  o /{
+   R  archidP ;
+IOUS_  ar =  anfIOUS_  ar isIOUS_  IOUS_  arcWA  ro  archidP ;
+IOUS_D_  archoject object */;
 }
-
